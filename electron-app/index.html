@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DFData Manager - 游戏装备数据管理工具</title>
+  <link rel="stylesheet" href="src/styles.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/chart.js@4/dist/chart.umd.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- 顶部导航栏 -->
+    <header class="app-header">
+      <div class="header-left">
+        <h1 class="app-title">
+          <span class="icon">🎮</span>
+          DFData Manager
+        </h1>
+        <span class="app-subtitle">游戏装备数据管理工具</span>
+      </div>
+      <div class="header-right">
+        <button @click="loadData" class="btn btn-primary">
+          <span class="icon">📂</span> 加载数据
+        </button>
+        <button @click="saveData" class="btn btn-success" :disabled="!dataLoaded">
+          <span class="icon">💾</span> 保存数据
+        </button>
+      </div>
+    </header>
+
+    <!-- 主内容区域 -->
+    <div class="app-container">
+      <!-- 侧边栏 -->
+      <aside class="sidebar">
+        <nav class="nav-menu">
+          <div class="nav-section">
+            <h3>数据浏览</h3>
+            <a href="#" @click.prevent="currentView = 'weapons'" :class="{active: currentView === 'weapons'}">
+              <span class="icon">🔫</span> 武器 <span class="badge">{{weaponsCount}}</span>
+            </a>
+            <a href="#" @click.prevent="currentView = 'accessories'" :class="{active: currentView === 'accessories'}">
+              <span class="icon">🔧</span> 配件 <span class="badge">{{accessoriesCount}}</span>
+            </a>
+            <a href="#" @click.prevent="currentView = 'ammunitions'" :class="{active: currentView === 'ammunitions'}">
+              <span class="icon">💣</span> 弹药 <span class="badge">{{ammunitionsCount}}</span>
+            </a>
+            <a href="#" @click.prevent="currentView = 'protection'" :class="{active: currentView === 'protection'}">
+              <span class="icon">🛡️</span> 防护装备 <span class="badge">{{protectionCount}}</span>
+            </a>
+            <a href="#" @click.prevent="currentView = 'collectibles'" :class="{active: currentView === 'collectibles'}">
+              <span class="icon">💎</span> 收集品 <span class="badge">{{collectiblesCount}}</span>
+            </a>
+            <a href="#" @click.prevent="currentView = 'consumables'" :class="{active: currentView === 'consumables'}">
+              <span class="icon">🧪</span> 消耗品 <span class="badge">{{consumablesCount}}</span>
+            </a>
+          </div>
+          <div class="nav-section">
+            <h3>系统配置</h3>
+            <a href="#" @click.prevent="currentView = 'slots'" :class="{active: currentView === 'slots'}">
+              <span class="icon">🔌</span> 插槽系统
+            </a>
+          </div>
+          <div class="nav-section">
+            <h3>工具</h3>
+            <a href="#" @click.prevent="currentView = 'statistics'" :class="{active: currentView === 'statistics'}">
+              <span class="icon">📊</span> 统计分析
+            </a>
+            <a href="#" @click.prevent="currentView = 'search'" :class="{active: currentView === 'search'}">
+              <span class="icon">🔍</span> 高级搜索
+            </a>
+          </div>
+        </nav>
+
+        <!-- 数据状态 -->
+        <div class="data-status">
+          <div class="status-item">
+            <span class="label">数据状态:</span>
+            <span class="value" :class="dataLoaded ? 'success' : 'warning'">
+              {{ dataLoaded ? '✓ 已加载' : '⚠ 未加载' }}
+            </span>
+          </div>
+          <div class="status-item" v-if="dataLoaded">
+            <span class="label">总物品:</span>
+            <span class="value">{{ totalItems }}</span>
+          </div>
+          <div class="status-item" v-if="dataPath">
+            <span class="label">数据路径:</span>
+            <span class="value small">{{ dataPath }}</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- 主视图区域 -->
+      <main class="main-content">
+        <!-- 欢迎界面 -->
+        <div v-if="!dataLoaded && currentView === 'weapons'" class="welcome-screen">
+          <div class="welcome-card">
+            <div class="welcome-icon">🎮</div>
+            <h2>欢迎使用 DFData Manager</h2>
+            <p>请先加载数据文件以开始管理您的游戏装备数据</p>
+            <button @click="loadData" class="btn btn-primary btn-lg">
+              <span class="icon">📂</span> 加载数据文件
+            </button>
+            <div class="welcome-tips">
+              <h4>支持的数据文件:</h4>
+              <ul>
+                <li>normalized_data/items_catalog.json - 物品目录</li>
+                <li>normalized_data/weapons_spec.json - 武器数据</li>
+                <li>normalized_data/accessories_spec.json - 配件数据</li>
+                <li>其他规范化数据文件...</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 武器视图 -->
+        <div v-if="dataLoaded && currentView === 'weapons'" class="data-view">
+          <div class="view-header">
+            <h2>
+              <span class="icon">🔫</span> 武器管理
+            </h2>
+            <div class="view-actions">
+              <input v-model="searchQuery" type="text" placeholder="搜索武器..." class="search-input">
+              <button @click="addNewItem('weapon')" class="btn btn-sm btn-success">
+                <span class="icon">➕</span> 添加武器
+              </button>
+            </div>
+          </div>
+
+          <div class="data-table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>图片</th>
+                  <th>名称</th>
+                  <th>类型</th>
+                  <th>口径</th>
+                  <th>伤害</th>
+                  <th>价格</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="weapon in filteredWeapons" :key="weapon.objectID" @click="previewItem(weapon)" class="clickable-row">
+                  <td>{{ weapon.objectID }}</td>
+                  <td>
+                    <img v-if="weapon.picture" :src="weapon.picture" class="item-thumbnail" :alt="weapon.objectName">
+                    <span v-else class="no-image">无图</span>
+                  </td>
+                  <td class="item-name">{{ weapon.objectName }}</td>
+                  <td><span class="badge badge-type">{{ weapon.type }}</span></td>
+                  <td>{{ weapon.caliber }}</td>
+                  <td>{{ weapon.meatHarm }}</td>
+                  <td class="price">¥{{ weapon.avgPrice?.toLocaleString() }}</td>
+                  <td class="actions">
+                    <button @click.stop="editItem(weapon)" class="btn-icon" title="编辑">✏️</button>
+                    <button @click.stop="deleteItem(weapon)" class="btn-icon" title="删除">🗑️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 配件视图 -->
+        <div v-if="dataLoaded && currentView === 'accessories'" class="data-view">
+          <div class="view-header">
+            <h2>
+              <span class="icon">🔧</span> 配件管理
+            </h2>
+            <div class="view-actions">
+              <input v-model="searchQuery" type="text" placeholder="搜索配件..." class="search-input">
+              <select v-model="filterType" class="filter-select">
+                <option value="">所有类型</option>
+                <option v-for="type in accessoryTypes" :key="type" :value="type">{{ type }}</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="data-table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>图片</th>
+                  <th>名称</th>
+                  <th>类型</th>
+                  <th>品质</th>
+                  <th>价格</th>
+                  <th>快速拆卸</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="accessory in filteredAccessories" :key="accessory.objectID" @click="previewItem(accessory)" class="clickable-row">
+                  <td>{{ accessory.objectID }}</td>
+                  <td>
+                    <img v-if="accessory.picture" :src="accessory.picture" class="item-thumbnail" :alt="accessory.objectName">
+                    <span v-else class="no-image">无图</span>
+                  </td>
+                  <td class="item-name">{{ accessory.objectName }}</td>
+                  <td><span class="badge badge-type">{{ accessory.type }}</span></td>
+                  <td><span class="badge badge-grade grade-{{accessory.grade}}">等级{{ accessory.grade }}</span></td>
+                  <td class="price">¥{{ accessory.avgPrice?.toLocaleString() }}</td>
+                  <td>{{ accessory.quickSeparate ? '✓' : '✗' }}</td>
+                  <td class="actions">
+                    <button @click.stop="editItem(accessory)" class="btn-icon" title="编辑">✏️</button>
+                    <button @click.stop="deleteItem(accessory)" class="btn-icon" title="删除">🗑️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 弹药视图 -->
+        <div v-if="dataLoaded && currentView === 'ammunitions'" class="data-view">
+          <div class="view-header">
+            <h2>
+              <span class="icon">💣</span> 弹药管理
+            </h2>
+            <div class="view-actions">
+              <input v-model="searchQuery" type="text" placeholder="搜索弹药..." class="search-input">
+            </div>
+          </div>
+
+          <div class="data-table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>图片</th>
+                  <th>名称</th>
+                  <th>口径</th>
+                  <th>类型</th>
+                  <th>伤害</th>
+                  <th>价格</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="ammo in filteredAmmunitions" :key="ammo.objectID" @click="previewItem(ammo)" class="clickable-row">
+                  <td>{{ ammo.objectID }}</td>
+                  <td>
+                    <img v-if="ammo.picture" :src="ammo.picture" class="item-thumbnail" :alt="ammo.objectName">
+                    <span v-else class="no-image">无图</span>
+                  </td>
+                  <td class="item-name">{{ ammo.objectName }}</td>
+                  <td>{{ ammo.caliber }}</td>
+                  <td><span class="badge badge-type">{{ ammo.type }}</span></td>
+                  <td>{{ ammo.meatHarm }}</td>
+                  <td class="price">¥{{ ammo.avgPrice?.toLocaleString() }}</td>
+                  <td class="actions">
+                    <button @click.stop="editItem(ammo)" class="btn-icon" title="编辑">✏️</button>
+                    <button @click.stop="deleteItem(ammo)" class="btn-icon" title="删除">🗑️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 防护装备视图 -->
+        <div v-if="dataLoaded && currentView === 'protection'" class="data-view">
+          <div class="view-header">
+            <h2>
+              <span class="icon">🛡️</span> 防护装备管理
+            </h2>
+            <div class="view-actions">
+              <input v-model="searchQuery" type="text" placeholder="搜索防护装备..." class="search-input">
+              <select v-model="filterProtectionType" class="filter-select">
+                <option value="">所有类型</option>
+                <option value="helmets">头盔</option>
+                <option value="armors">护甲</option>
+                <option value="chests">胸挂</option>
+                <option value="backpacks">背包</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="data-table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>图片</th>
+                  <th>名称</th>
+                  <th>类型</th>
+                  <th>等级</th>
+                  <th>耐久度</th>
+                  <th>价格</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="item in filteredProtection" :key="item.objectID" @click="previewItem(item)" class="clickable-row">
+                  <td>{{ item.objectID }}</td>
+                  <td>
+                    <img v-if="item.picture" :src="item.picture" class="item-thumbnail" :alt="item.objectName">
+                    <span v-else class="no-image">无图</span>
+                  </td>
+                  <td class="item-name">{{ item.objectName }}</td>
+                  <td><span class="badge badge-type">{{ item.protectionType }}</span></td>
+                  <td><span class="badge badge-grade">等级{{ item.level || item.grade }}</span></td>
+                  <td>{{ item.durability }}</td>
+                  <td class="price">¥{{ item.avgPrice?.toLocaleString() }}</td>
+                  <td class="actions">
+                    <button @click.stop="editItem(item)" class="btn-icon" title="编辑">✏️</button>
+                    <button @click.stop="deleteItem(item)" class="btn-icon" title="删除">🗑️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 收集品视图 -->
+        <div v-if="dataLoaded && currentView === 'collectibles'" class="data-view">
+          <div class="view-header">
+            <h2>
+              <span class="icon">💎</span> 收集品管理
+            </h2>
+            <div class="view-actions">
+              <input v-model="searchQuery" type="text" placeholder="搜索收集品..." class="search-input">
+            </div>
+          </div>
+
+          <div class="data-table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>图片</th>
+                  <th>名称</th>
+                  <th>类型</th>
+                  <th>品质</th>
+                  <th>重量</th>
+                  <th>价格</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="item in filteredCollectibles" :key="item.objectID" @click="previewItem(item)" class="clickable-row">
+                  <td>{{ item.objectID }}</td>
+                  <td>
+                    <img v-if="item.picture" :src="item.picture" class="item-thumbnail" :alt="item.objectName">
+                    <span v-else class="no-image">无图</span>
+                  </td>
+                  <td class="item-name">{{ item.objectName }}</td>
+                  <td><span class="badge badge-type">{{ item.type }}</span></td>
+                  <td><span class="badge badge-grade grade-{{item.grade}}">等级{{ item.grade }}</span></td>
+                  <td>{{ item.weight }}kg</td>
+                  <td class="price">¥{{ item.avgPrice?.toLocaleString() }}</td>
+                  <td class="actions">
+                    <button @click.stop="editItem(item)" class="btn-icon" title="编辑">✏️</button>
+                    <button @click.stop="deleteItem(item)" class="btn-icon" title="删除">🗑️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 消耗品视图 -->
+        <div v-if="dataLoaded && currentView === 'consumables'" class="data-view">
+          <div class="view-header">
+            <h2>
+              <span class="icon">🧪</span> 消耗品管理
+            </h2>
+            <div class="view-actions">
+              <input v-model="searchQuery" type="text" placeholder="搜索消耗品..." class="search-input">
+            </div>
+          </div>
+
+          <div class="data-table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>图片</th>
+                  <th>名称</th>
+                  <th>类别</th>
+                  <th>品质</th>
+                  <th>重量</th>
+                  <th>价格</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="item in filteredConsumables" :key="item.objectID" @click="previewItem(item)" class="clickable-row">
+                  <td>{{ item.objectID }}</td>
+                  <td>
+                    <img v-if="item.picture" :src="item.picture" class="item-thumbnail" :alt="item.objectName">
+                    <span v-else class="no-image">无图</span>
+                  </td>
+                  <td class="item-name">{{ item.objectName }}</td>
+                  <td><span class="badge badge-type">{{ item.thirdClassCN }}</span></td>
+                  <td><span class="badge badge-grade grade-{{item.grade}}">等级{{ item.grade }}</span></td>
+                  <td>{{ item.weight }}kg</td>
+                  <td class="price">¥{{ item.avgPrice?.toLocaleString() }}</td>
+                  <td class="actions">
+                    <button @click.stop="editItem(item)" class="btn-icon" title="编辑">✏️</button>
+                    <button @click.stop="deleteItem(item)" class="btn-icon" title="删除">🗑️</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- 插槽系统视图 -->
+        <div v-if="dataLoaded && currentView === 'slots'" class="data-view">
+          <div class="view-header">
+            <h2>
+              <span class="icon">🔌</span> 插槽系统配置
+            </h2>
+            <div class="view-actions">
+              <button @click="openSlotTester" class="btn btn-primary">
+                <span class="icon">🧪</span> 打开插槽测试器
+              </button>
+            </div>
+          </div>
+
+          <div class="slots-info">
+            <div class="info-card">
+              <h3>插槽系统概览</h3>
+              <div class="stat-item">
+                <span class="label">总插槽类型:</span>
+                <span class="value">{{ slotTypesCount }}</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">武器插槽配置:</span>
+                <span class="value">{{ weaponSlotsCount }}</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">兼容性配置:</span>
+                <span class="value">{{ compatibilityCount }}</span>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <h3>系统说明</h3>
+              <p>插槽系统定义了武器与配件之间的兼容性关系。每个武器都有特定的插槽配置，不同的配件可以安装在对应的插槽上。</p>
+              <p><strong>主要功能:</strong></p>
+              <ul>
+                <li>定义武器插槽类型和位置</li>
+                <li>管理配件与插槽的兼容性</li>
+                <li>支持动态插槽系统</li>
+                <li>配置安装限制和要求</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 插槽测试器对话框 -->
+        <div v-if="slotTesterActive" class="modal-overlay slot-tester-modal" @click="closeSlotTester">
+          <div class="modal-dialog slot-tester-dialog" @click.stop>
+            <div class="modal-header">
+              <h3>🧪 插槽配置测试器</h3>
+              <button @click="closeSlotTester" class="btn-close">✕</button>
+            </div>
+
+            <div class="modal-body slot-tester-body">
+              <!-- 武器选择 -->
+              <div class="weapon-selector-section">
+                <select v-model="selectedWeaponId" @change="selectWeaponForTester(selectedWeaponId)" class="weapon-selector">
+                  <option :value="null">请选择武器...</option>
+                  <option v-for="weapon in weaponsData" :key="weapon.objectID" :value="weapon.objectID">
+                    {{ weapon.objectName }} ({{ weapon.type }})
+                  </option>
+                </select>
+              </div>
+
+              <!-- 武器展示区 -->
+              <div v-if="selectedWeapon" class="weapon-display-area">
+                <div class="weapon-image-container">
+                  <img v-if="selectedWeapon.picture" :src="selectedWeapon.picture" :alt="selectedWeapon.objectName" class="weapon-large-image">
+                  <div v-else class="weapon-no-image">暂无图片</div>
+                </div>
+                <div class="weapon-info-compact">
+                  <h4>{{ selectedWeapon.objectName }}</h4>
+                  <div class="info-badges">
+                    <span class="badge badge-type">{{ selectedWeapon.type }}</span>
+                    <span class="badge badge-info">{{ weaponBaseSlots.length }} 基础插槽</span>
+                    <span class="badge badge-success">{{ availableSlots.length }} 可用插槽</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 插槽网格 -->
+              <div v-if="selectedWeapon" class="slots-grid-container">
+                <h4 class="section-title">配件插槽 ({{ availableSlots.length }})</h4>
+                <div class="slots-grid">
+                  <div v-for="slot in availableSlots" :key="slot.slotId + slot.slotOrder"
+                       class="slot-grid-item"
+                       :class="{ 'has-accessory': installedAccessories[slot.slotId], 'is-dynamic': slot.isDynamic }"
+                       @click="toggleSlotMenu(slot.slotId)">
+
+                    <!-- 已安装配件 -->
+                    <div v-if="installedAccessories[slot.slotId]" class="slot-content">
+                      <img v-if="getInstalledAccessory(slot.slotId)?.picture"
+                           :src="getInstalledAccessory(slot.slotId).picture"
+                           :alt="getInstalledAccessory(slot.slotId).objectName"
+                           class="accessory-image">
+                      <div v-else class="accessory-placeholder">
+                        {{ getInstalledAccessory(slot.slotId)?.objectName }}
+                      </div>
+                      <div class="slot-label">{{ slot.slotName }}</div>
+                      <button @click.stop="uninstallAccessory(slot.slotId)" class="uninstall-btn" title="卸载">✕</button>
+                      <span v-if="slot.isDynamic" class="dynamic-indicator" title="动态插槽">⚡</span>
+                    </div>
+
+                    <!-- 空插槽 -->
+                    <div v-else class="slot-content empty">
+                      <div class="empty-slot-icon">🔌</div>
+                      <div class="slot-label">{{ slot.slotName }}</div>
+                      <div class="slot-count">{{ (slotAccessories[slot.slotId] || []).length }} 可用</div>
+                      <span v-if="slot.isDynamic" class="dynamic-indicator" title="动态插槽">⚡</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 配件选择菜单（全局弹窗） -->
+              <div v-if="activeSlotMenu" class="slot-menu-overlay" @click="activeSlotMenu = null">
+                <div class="slot-menu" @click.stop>
+                  <div class="menu-header">
+                    <span>选择配件 - {{ availableSlots.find(s => s.slotId === activeSlotMenu)?.slotName }}</span>
+                    <button @click.stop="activeSlotMenu = null" class="menu-close">✕</button>
+                  </div>
+
+                  <div class="menu-items">
+                    <div v-for="acc in slotAccessories[activeSlotMenu]"
+                         :key="acc.accessoryId"
+                         @click="installAccessoryAndCloseMenu(activeSlotMenu, acc.accessoryId)"
+                         class="menu-item">
+                      <img v-if="acc.accessoryData.picture"
+                           :src="acc.accessoryData.picture"
+                           :alt="acc.accessoryName"
+                           class="menu-item-image">
+                      <span class="menu-item-name">{{ acc.accessoryName }}</span>
+                    </div>
+                    <div v-if="(slotAccessories[activeSlotMenu] || []).length === 0" class="menu-empty">
+                      暂无可用配件
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 空状态 -->
+              <div v-if="!selectedWeapon" class="empty-state">
+                <div class="empty-icon">🔫</div>
+                <p>请先选择一个武器开始配置</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 统计分析视图 -->
+        <div v-if="currentView === 'statistics'" class="statistics-view">
+          <div class="view-header">
+            <h2>
+              <span class="icon">📊</span> 统计分析
+            </h2>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <h3>物品统计</h3>
+              <div class="stat-item">
+                <span class="label">武器总数:</span>
+                <span class="value">{{ weaponsCount }}</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">配件总数:</span>
+                <span class="value">{{ accessoriesCount }}</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">弹药总数:</span>
+                <span class="value">{{ ammunitionsCount }}</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">防护装备:</span>
+                <span class="value">{{ protectionCount }}</span>
+              </div>
+            </div>
+
+            <div class="stat-card">
+              <h3>价格统计</h3>
+              <div class="stat-item">
+                <span class="label">最高价格:</span>
+                <span class="value price">¥{{ maxPrice?.toLocaleString() }}</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">平均价格:</span>
+                <span class="value price">¥{{ avgPrice?.toLocaleString() }}</span>
+              </div>
+              <div class="stat-item">
+                <span class="label">中位数:</span>
+                <span class="value price">¥{{ medianPrice?.toLocaleString() }}</span>
+              </div>
+            </div>
+
+            <div class="stat-card full-width">
+              <h3>数据完整性</h3>
+              <div class="progress-item">
+                <span class="label">数据加载进度</span>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 100%"></div>
+                </div>
+                <span class="value">100%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 图表区域 -->
+          <div class="charts-container">
+            <div class="chart-card">
+              <h3>武器类型分布</h3>
+              <canvas id="weaponTypeChart"></canvas>
+            </div>
+            <div class="chart-card">
+              <h3>配件类型分布</h3>
+              <canvas id="accessoryTypeChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- 编辑对话框 -->
+    <div v-if="showEditDialog" class="modal-overlay" @click="closeEditDialog">
+      <div class="modal-dialog" @click.stop>
+        <div class="modal-header">
+          <h3>{{ editingItem.objectID ? '编辑' : '添加' }}物品</h3>
+          <button @click="closeEditDialog" class="btn-close">✕</button>
+        </div>
+        <div class="modal-body">
+          <form @submit.prevent="saveEditedItem">
+            <div class="form-group">
+              <label>物品名称</label>
+              <input v-model="editingItem.objectName" type="text" required class="form-control">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Object ID</label>
+                <input v-model="editingItem.objectID" type="number" required class="form-control">
+              </div>
+              <div class="form-group">
+                <label>内部 ID</label>
+                <input v-model="editingItem.id" type="number" required class="form-control">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>价格</label>
+                <input v-model.number="editingItem.avgPrice" type="number" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>品质等级</label>
+                <input v-model.number="editingItem.grade" type="number" min="0" max="6" class="form-control">
+              </div>
+            </div>
+            <div class="form-group">
+              <label>图片链接</label>
+              <input v-model="editingItem.picture" type="url" class="form-control">
+            </div>
+            <div class="modal-footer">
+              <button type="button" @click="closeEditDialog" class="btn btn-secondary">取消</button>
+              <button type="submit" class="btn btn-primary">保存</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- 预览对话框 -->
+    <div v-if="showPreviewDialog" class="modal-overlay" @click="closePreviewDialog">
+      <div class="modal-dialog modal-preview" @click.stop>
+        <div class="modal-header">
+          <h3>{{ previewingItem.objectName }}</h3>
+          <button @click="closePreviewDialog" class="btn-close">✕</button>
+        </div>
+        <div class="modal-body preview-body">
+          <div class="preview-layout">
+            <!-- 左侧：图片 -->
+            <div class="preview-image-section">
+              <img v-if="previewingItem.imageData" :src="previewingItem.imageData" :alt="previewingItem.objectName" class="preview-image">
+              <div v-else class="preview-no-image">暂无图片</div>
+            </div>
+
+            <!-- 右侧：详细信息 -->
+            <div class="preview-details">
+              <div class="detail-section">
+                <h4>基本信息</h4>
+                <div class="detail-item">
+                  <span class="detail-label">ID:</span>
+                  <span class="detail-value">{{ previewingItem.objectID }}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">名称:</span>
+                  <span class="detail-value">{{ previewingItem.objectName }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.type">
+                  <span class="detail-label">类型:</span>
+                  <span class="detail-value badge badge-type">{{ previewingItem.type }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.category">
+                  <span class="detail-label">分类:</span>
+                  <span class="detail-value">{{ previewingItem.category }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.grade !== undefined">
+                  <span class="detail-label">品质:</span>
+                  <span class="detail-value badge badge-grade">等级{{ previewingItem.grade }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.avgPrice">
+                  <span class="detail-label">价格:</span>
+                  <span class="detail-value price">¥{{ previewingItem.avgPrice?.toLocaleString() }}</span>
+                </div>
+              </div>
+
+              <!-- 武器专属属性 -->
+              <div class="detail-section" v-if="previewingItem.category === 'weapon'">
+                <h4>武器属性</h4>
+                <div class="detail-item" v-if="previewingItem.caliber">
+                  <span class="detail-label">口径:</span>
+                  <span class="detail-value">{{ previewingItem.caliber }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.meatHarm">
+                  <span class="detail-label">伤害:</span>
+                  <span class="detail-value">{{ previewingItem.meatHarm }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.verticalRecoil">
+                  <span class="detail-label">垂直后坐力:</span>
+                  <span class="detail-value">{{ previewingItem.verticalRecoil }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.horizontalRecoil">
+                  <span class="detail-label">水平后坐力:</span>
+                  <span class="detail-value">{{ previewingItem.horizontalRecoil }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.capacity">
+                  <span class="detail-label">容量:</span>
+                  <span class="detail-value">{{ previewingItem.capacity }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.firingRate">
+                  <span class="detail-label">射速:</span>
+                  <span class="detail-value">{{ previewingItem.firingRate }} RPM</span>
+                </div>
+              </div>
+
+              <!-- 配件专属属性 -->
+              <div class="detail-section" v-if="previewingItem.category === 'accessory'">
+                <h4>配件属性</h4>
+                <div class="detail-item" v-if="previewingItem.quickSeparate !== undefined">
+                  <span class="detail-label">快速拆卸:</span>
+                  <span class="detail-value">{{ previewingItem.quickSeparate ? '是' : '否' }}</span>
+                </div>
+                <div class="detail-item" v-if="previewingItem.gunSoundEffect">
+                  <span class="detail-label">声音效果:</span>
+                  <span class="detail-value">{{ previewingItem.gunSoundEffect }}</span>
+                </div>
+              </div>
+
+              <!-- 背包/胸挂格子布局 -->
+              <div class="detail-section" v-if="(previewingItem.category === 'backpack' || previewingItem.category === 'chest') && previewingItem.grid && previewingItem.grid.length > 0">
+                <h4>格子布局</h4>
+                <div class="grid-layout-container">
+                  <div class="grid-display"
+                       :style="{
+                         gridTemplateColumns: 'repeat(' + calculateGridLayout(previewingItem).gridWidth + ', 40px)',
+                         gridTemplateRows: 'repeat(' + calculateGridLayout(previewingItem).gridHeight + ', 40px)'
+                       }">
+                    <div v-for="cell in calculateGridLayout(previewingItem).cells"
+                         :key="cell.index"
+                         class="grid-cell-item"
+                         :style="{
+                           gridColumnStart: cell.x + 1,
+                           gridColumnEnd: cell.x + cell.width + 1,
+                           gridRowStart: cell.y + 1,
+                           gridRowEnd: cell.y + cell.height + 1
+                         }">
+                      <span class="cell-size">{{ cell.width }}×{{ cell.height }}</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-info">
+                  <span>总容量: {{ previewingItem.capacity }} 格</span>
+                  <span>格子数: {{ previewingItem.grid.length }}</span>
+                  <span>网格尺寸: {{ calculateGridLayout(previewingItem).gridWidth }}×{{ calculateGridLayout(previewingItem).gridHeight }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button @click="editItem(previewingItem)" class="btn btn-primary">编辑</button>
+          <button @click="closePreviewDialog" class="btn btn-secondary">关闭</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 加载提示 -->
+    <div v-if="loading" class="loading-overlay">
+      <div class="loading-spinner"></div>
+      <p>{{ loadingMessage }}</p>
+    </div>
+  </div>
+
+  <script src="src/app.js"></script>
+</body>
+</html>

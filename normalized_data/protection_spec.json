@@ -1,0 +1,3474 @@
+{
+  "metadata": {
+    "category": "protection_specifications",
+    "description": "防护装备专业属性（不含通用属性，需配合 items_catalog.json 使用）",
+    "counts": {
+      "helmets": 70,
+      "armors": 69,
+      "chests": 19,
+      "backpacks": 26
+    },
+    "note": "使用 objectID 关联到 items_catalog 获取物品名称、价格等基础信息",
+    "exportTime": "2025-12-01T02:31:45.005838",
+    "version": "4.0"
+  },
+  "helmets": [
+    {
+      "id": 10023,
+      "objectID": 11010001001,
+      "durability": 10,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10024,
+      "objectID": 11010001004,
+      "durability": 12,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 10,
+      "denoiseEffect": "低",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10330,
+      "objectID": 11010001002,
+      "durability": 10,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10331,
+      "objectID": 11010001003,
+      "durability": 10,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 9971,
+      "objectID": 10010006550,
+      "durability": 7,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9972,
+      "objectID": 10010009744,
+      "durability": 8,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9973,
+      "objectID": 10010009929,
+      "durability": 7,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9974,
+      "objectID": 10010005854,
+      "durability": 8,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9975,
+      "objectID": 10010004256,
+      "durability": 7,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9976,
+      "objectID": 10010006707,
+      "durability": 8,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9977,
+      "objectID": 10010000380,
+      "durability": 10,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 10,
+      "denoiseEffect": "低",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9978,
+      "objectID": 10010001042,
+      "durability": 8,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 10,
+      "denoiseEffect": "低",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9984,
+      "objectID": 10010005207,
+      "durability": 15,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": -5,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9985,
+      "objectID": 10010000882,
+      "durability": 14,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9986,
+      "objectID": 10010007394,
+      "durability": 17,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10332,
+      "objectID": 11010002001,
+      "durability": 18,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": -5,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10333,
+      "objectID": 11010002002,
+      "durability": 12,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10334,
+      "objectID": 11010002003,
+      "durability": 15,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10335,
+      "objectID": 11010002004,
+      "durability": 20,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 9979,
+      "objectID": 10010001627,
+      "durability": 8,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9980,
+      "objectID": 10010008761,
+      "durability": 10,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9981,
+      "objectID": 10010000066,
+      "durability": 12,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9982,
+      "objectID": 10010001163,
+      "durability": 10,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9983,
+      "objectID": 10010006388,
+      "durability": 12,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": -5,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9987,
+      "objectID": 10010002186,
+      "durability": 19,
+      "protectLevel": 3,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "soundEffect": -5,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9988,
+      "objectID": 10010008988,
+      "durability": 23,
+      "protectLevel": 3,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "soundEffect": -5,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9989,
+      "objectID": 10010005389,
+      "durability": 14,
+      "protectLevel": 3,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9990,
+      "objectID": 10010009730,
+      "durability": 17,
+      "protectLevel": 3,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9991,
+      "objectID": 10010004788,
+      "durability": 28,
+      "protectLevel": 3,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9992,
+      "objectID": 10010003389,
+      "durability": 34,
+      "protectLevel": 3,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9993,
+      "objectID": 10010004528,
+      "durability": 23,
+      "protectLevel": 3,
+      "aimSpeed": -1,
+      "moveSpeed": -1,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9994,
+      "objectID": 10010004540,
+      "durability": 28,
+      "protectLevel": 3,
+      "aimSpeed": -1,
+      "moveSpeed": -1,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10336,
+      "objectID": 11010003003,
+      "durability": 40,
+      "protectLevel": 3,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10337,
+      "objectID": 11010003001,
+      "durability": 28,
+      "protectLevel": 3,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "soundEffect": -5,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10338,
+      "objectID": 11010003002,
+      "durability": 20,
+      "protectLevel": 3,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "soundEffect": 0,
+      "denoiseEffect": null,
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10339,
+      "objectID": 11010003004,
+      "durability": 34,
+      "protectLevel": 3,
+      "aimSpeed": -1,
+      "moveSpeed": -1,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 9995,
+      "objectID": 10010009325,
+      "durability": 38,
+      "protectLevel": 4,
+      "aimSpeed": -6,
+      "moveSpeed": -4,
+      "soundEffect": -10,
+      "denoiseEffect": "高",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9996,
+      "objectID": 10010001237,
+      "durability": 46,
+      "protectLevel": 4,
+      "aimSpeed": -6,
+      "moveSpeed": -4,
+      "soundEffect": -10,
+      "denoiseEffect": "高",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9997,
+      "objectID": 10010008485,
+      "durability": 21,
+      "protectLevel": 4,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "soundEffect": 30,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9998,
+      "objectID": 10010002545,
+      "durability": 25,
+      "protectLevel": 4,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "soundEffect": 30,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9999,
+      "objectID": 10010006956,
+      "durability": 33,
+      "protectLevel": 4,
+      "aimSpeed": -4,
+      "moveSpeed": -4,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 11042,
+      "objectID": 10010003266,
+      "durability": 29,
+      "protectLevel": 4,
+      "aimSpeed": 0,
+      "moveSpeed": -2,
+      "soundEffect": 50,
+      "denoiseEffect": "高",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10340,
+      "objectID": 11010004002,
+      "durability": 30,
+      "protectLevel": 4,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "soundEffect": 30,
+      "denoiseEffect": "中",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10341,
+      "objectID": 11010004001,
+      "durability": 55,
+      "protectLevel": 4,
+      "aimSpeed": -6,
+      "moveSpeed": -4,
+      "soundEffect": -10,
+      "denoiseEffect": "高",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10342,
+      "objectID": 11010004003,
+      "durability": 35,
+      "protectLevel": 4,
+      "aimSpeed": 0,
+      "moveSpeed": -2,
+      "soundEffect": 50,
+      "denoiseEffect": "高",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10343,
+      "objectID": 11010004004,
+      "durability": 48,
+      "protectLevel": 4,
+      "aimSpeed": -4,
+      "moveSpeed": -4,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 11159,
+      "objectID": 10010002234,
+      "durability": 24,
+      "protectLevel": 4,
+      "aimSpeed": 0,
+      "moveSpeed": -2,
+      "soundEffect": 50,
+      "denoiseEffect": "高",
+      "repairEfficiency": null,
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 11160,
+      "objectID": 10010006695,
+      "durability": 40,
+      "protectLevel": 4,
+      "aimSpeed": -4,
+      "moveSpeed": -4,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 11041,
+      "objectID": 10010001573,
+      "durability": 52,
+      "protectLevel": 5,
+      "aimSpeed": -6,
+      "moveSpeed": -5,
+      "soundEffect": -15,
+      "denoiseEffect": "高",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 10344,
+      "objectID": 11010005001,
+      "durability": 75,
+      "protectLevel": 5,
+      "aimSpeed": -6,
+      "moveSpeed": -5,
+      "soundEffect": -15,
+      "denoiseEffect": "高",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10345,
+      "objectID": 11010005002,
+      "durability": 45,
+      "protectLevel": 5,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10346,
+      "objectID": 11010005004,
+      "durability": 50,
+      "protectLevel": 5,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10347,
+      "objectID": 11010005003,
+      "durability": 40,
+      "protectLevel": 5,
+      "aimSpeed": -1,
+      "moveSpeed": -1,
+      "soundEffect": 40,
+      "denoiseEffect": "高",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 11165,
+      "objectID": 11010005010,
+      "durability": 20,
+      "protectLevel": 5,
+      "aimSpeed": 0,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 11166,
+      "objectID": 11010005009,
+      "durability": 50,
+      "protectLevel": 5,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10967,
+      "objectID": 10010009510,
+      "durability": 42,
+      "protectLevel": 5,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10968,
+      "objectID": 10010001974,
+      "durability": 35,
+      "protectLevel": 5,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 10969,
+      "objectID": 10010003863,
+      "durability": 34,
+      "protectLevel": 5,
+      "aimSpeed": -1,
+      "moveSpeed": -1,
+      "soundEffect": 40,
+      "denoiseEffect": "高",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10970,
+      "objectID": 10010002185,
+      "durability": 28,
+      "protectLevel": 5,
+      "aimSpeed": -1,
+      "moveSpeed": -1,
+      "soundEffect": 40,
+      "denoiseEffect": "高",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 10971,
+      "objectID": 10010002067,
+      "durability": 42,
+      "protectLevel": 5,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10972,
+      "objectID": 10010007490,
+      "durability": 35,
+      "protectLevel": 5,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 10975,
+      "objectID": 10010001274,
+      "durability": 38,
+      "protectLevel": 5,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10976,
+      "objectID": 10010004314,
+      "durability": 31,
+      "protectLevel": 5,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 10979,
+      "objectID": 10010008816,
+      "durability": 63,
+      "protectLevel": 5,
+      "aimSpeed": -6,
+      "moveSpeed": -5,
+      "soundEffect": -15,
+      "denoiseEffect": "高",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10348,
+      "objectID": 11010006004,
+      "durability": 60,
+      "protectLevel": 6,
+      "aimSpeed": -8,
+      "moveSpeed": -3,
+      "soundEffect": 20,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10349,
+      "objectID": 11010006003,
+      "durability": 50,
+      "protectLevel": 6,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "soundEffect": 40,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10350,
+      "objectID": 11010006002,
+      "durability": 55,
+      "protectLevel": 6,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 11167,
+      "objectID": 11010006007,
+      "durability": 55,
+      "protectLevel": 6,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10965,
+      "objectID": 10010005965,
+      "durability": 46,
+      "protectLevel": 6,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10966,
+      "objectID": 10010001101,
+      "durability": 38,
+      "protectLevel": 6,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "soundEffect": 10,
+      "denoiseEffect": "中",
+      "repairEfficiency": "头盔视野下降",
+      "protectArea": "头部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    }
+  ],
+  "armors": [
+    {
+      "id": 10774,
+      "objectID": 11050001003,
+      "durability": 25,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10775,
+      "objectID": 11050001001,
+      "durability": 20,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10026,
+      "objectID": 11050001002,
+      "durability": 20,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10027,
+      "objectID": 11050001004,
+      "durability": 30,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 9927,
+      "objectID": 10010007404,
+      "durability": 14,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9928,
+      "objectID": 10010005768,
+      "durability": 17,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9929,
+      "objectID": 10010002092,
+      "durability": 14,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9930,
+      "objectID": 10010008771,
+      "durability": 17,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9931,
+      "objectID": 10010008600,
+      "durability": 17,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9932,
+      "objectID": 10010005323,
+      "durability": 21,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9933,
+      "objectID": 10010001651,
+      "durability": 21,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9934,
+      "objectID": 10010007878,
+      "durability": 25,
+      "protectLevel": 1,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10776,
+      "objectID": 11050002003,
+      "durability": 40,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10777,
+      "objectID": 11050002001,
+      "durability": 30,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10778,
+      "objectID": 11050002002,
+      "durability": 35,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10779,
+      "objectID": 11050002004,
+      "durability": 50,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 9935,
+      "objectID": 10010006602,
+      "durability": 21,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9936,
+      "objectID": 10010004435,
+      "durability": 25,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9937,
+      "objectID": 10010005404,
+      "durability": 24,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9938,
+      "objectID": 10010001276,
+      "durability": 29,
+      "protectLevel": 2,
+      "aimSpeed": 1,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9939,
+      "objectID": 10010009232,
+      "durability": 28,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9940,
+      "objectID": 10010007123,
+      "durability": 34,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9941,
+      "objectID": 10010004559,
+      "durability": 35,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9942,
+      "objectID": 10010002934,
+      "durability": 42,
+      "protectLevel": 2,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10780,
+      "objectID": 11050003001,
+      "durability": 50,
+      "protectLevel": 3,
+      "aimSpeed": -1,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "低",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10781,
+      "objectID": 11050003002,
+      "durability": 60,
+      "protectLevel": 3,
+      "aimSpeed": -1,
+      "moveSpeed": -1,
+      "repairEfficiency": "中",
+      "protectArea": "胸部",
+      "durableLoss": "低",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10782,
+      "objectID": 11050003004,
+      "durability": 85,
+      "protectLevel": 3,
+      "aimSpeed": -4,
+      "moveSpeed": -2,
+      "repairEfficiency": "低",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10783,
+      "objectID": 11050003003,
+      "durability": 75,
+      "protectLevel": 3,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 9943,
+      "objectID": 10010000213,
+      "durability": 35,
+      "protectLevel": 3,
+      "aimSpeed": -1,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "低",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9944,
+      "objectID": 10010005260,
+      "durability": 42,
+      "protectLevel": 3,
+      "aimSpeed": -1,
+      "moveSpeed": 0,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "低",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9945,
+      "objectID": 10010007309,
+      "durability": 42,
+      "protectLevel": 3,
+      "aimSpeed": -1,
+      "moveSpeed": -1,
+      "repairEfficiency": "中",
+      "protectArea": "胸部",
+      "durableLoss": "低",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9946,
+      "objectID": 10010004583,
+      "durability": 51,
+      "protectLevel": 3,
+      "aimSpeed": -1,
+      "moveSpeed": -1,
+      "repairEfficiency": "中",
+      "protectArea": "胸部",
+      "durableLoss": "低",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9947,
+      "objectID": 10010005656,
+      "durability": 52,
+      "protectLevel": 3,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9948,
+      "objectID": 10010000498,
+      "durability": 63,
+      "protectLevel": 3,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9949,
+      "objectID": 10010006068,
+      "durability": 59,
+      "protectLevel": 3,
+      "aimSpeed": -4,
+      "moveSpeed": -2,
+      "repairEfficiency": "低",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9950,
+      "objectID": 10010001152,
+      "durability": 72,
+      "protectLevel": 3,
+      "aimSpeed": -4,
+      "moveSpeed": -2,
+      "repairEfficiency": "低",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10784,
+      "objectID": 11050004002,
+      "durability": 90,
+      "protectLevel": 4,
+      "aimSpeed": -2,
+      "moveSpeed": -1,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10785,
+      "objectID": 11050004001,
+      "durability": 80,
+      "protectLevel": 4,
+      "aimSpeed": -5,
+      "moveSpeed": -5,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "低",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10786,
+      "objectID": 11050004003,
+      "durability": 100,
+      "protectLevel": 4,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10787,
+      "objectID": 11050004004,
+      "durability": 110,
+      "protectLevel": 4,
+      "aimSpeed": -5,
+      "moveSpeed": -5,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "低",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10955,
+      "objectID": 11050004007,
+      "durability": 80,
+      "protectLevel": 4,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "中",
+      "protectArea": "胸部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 9951,
+      "objectID": 10010000337,
+      "durability": 56,
+      "protectLevel": 4,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "中",
+      "protectArea": "胸部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9952,
+      "objectID": 10010008429,
+      "durability": 68,
+      "protectLevel": 4,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "repairEfficiency": "中",
+      "protectArea": "胸部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9953,
+      "objectID": 10010002393,
+      "durability": 56,
+      "protectLevel": 4,
+      "aimSpeed": -5,
+      "moveSpeed": -5,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "低",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9954,
+      "objectID": 10010003636,
+      "durability": 68,
+      "protectLevel": 4,
+      "aimSpeed": -5,
+      "moveSpeed": -5,
+      "repairEfficiency": "高",
+      "protectArea": "胸部",
+      "durableLoss": "低",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9955,
+      "objectID": 10010005423,
+      "durability": 62,
+      "protectLevel": 4,
+      "aimSpeed": -2,
+      "moveSpeed": -1,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9956,
+      "objectID": 10010003907,
+      "durability": 76,
+      "protectLevel": 4,
+      "aimSpeed": -2,
+      "moveSpeed": -1,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9957,
+      "objectID": 10010006329,
+      "durability": 70,
+      "protectLevel": 4,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9958,
+      "objectID": 10010006159,
+      "durability": 85,
+      "protectLevel": 4,
+      "aimSpeed": -4,
+      "moveSpeed": -3,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9959,
+      "objectID": 10010001216,
+      "durability": 77,
+      "protectLevel": 4,
+      "aimSpeed": -5,
+      "moveSpeed": -5,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "低",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9960,
+      "objectID": 10010008221,
+      "durability": 93,
+      "protectLevel": 4,
+      "aimSpeed": -5,
+      "moveSpeed": -5,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "低",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10788,
+      "objectID": 11050005003,
+      "durability": 105,
+      "protectLevel": 5,
+      "aimSpeed": -5,
+      "moveSpeed": -3,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10789,
+      "objectID": 11050005002,
+      "durability": 115,
+      "protectLevel": 5,
+      "aimSpeed": -8,
+      "moveSpeed": -7,
+      "repairEfficiency": "高",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10790,
+      "objectID": 11050005004,
+      "durability": 125,
+      "protectLevel": 5,
+      "aimSpeed": -10,
+      "moveSpeed": -5,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10791,
+      "objectID": 11050005001,
+      "durability": 95,
+      "protectLevel": 5,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "repairEfficiency": "高",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 9961,
+      "objectID": 10010007782,
+      "durability": 66,
+      "protectLevel": 5,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "repairEfficiency": "高",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9962,
+      "objectID": 10010003585,
+      "durability": 80,
+      "protectLevel": 5,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "repairEfficiency": "高",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9963,
+      "objectID": 10010008120,
+      "durability": 80,
+      "protectLevel": 5,
+      "aimSpeed": -8,
+      "moveSpeed": -7,
+      "repairEfficiency": "高",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "高",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9964,
+      "objectID": 10010000296,
+      "durability": 97,
+      "protectLevel": 5,
+      "aimSpeed": -8,
+      "moveSpeed": -7,
+      "repairEfficiency": "高",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "高",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9965,
+      "objectID": 10010000714,
+      "durability": 73,
+      "protectLevel": 5,
+      "aimSpeed": -5,
+      "moveSpeed": -3,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9966,
+      "objectID": 10010009768,
+      "durability": 89,
+      "protectLevel": 5,
+      "aimSpeed": -5,
+      "moveSpeed": -3,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 9967,
+      "objectID": 10010006467,
+      "durability": 87,
+      "protectLevel": 5,
+      "aimSpeed": -10,
+      "moveSpeed": -5,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9968,
+      "objectID": 10010004785,
+      "durability": 100,
+      "protectLevel": 5,
+      "aimSpeed": -10,
+      "moveSpeed": -5,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    },
+    {
+      "id": 10792,
+      "objectID": 11050006004,
+      "durability": 150,
+      "protectLevel": 6,
+      "aimSpeed": -12,
+      "moveSpeed": -8,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10793,
+      "objectID": 11050006002,
+      "durability": 115,
+      "protectLevel": 6,
+      "aimSpeed": -1,
+      "moveSpeed": -3,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "中",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10794,
+      "objectID": 11050006003,
+      "durability": 125,
+      "protectLevel": 6,
+      "aimSpeed": -6,
+      "moveSpeed": -5,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "低",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 10954,
+      "objectID": 11050006001,
+      "durability": 140,
+      "protectLevel": 6,
+      "aimSpeed": -8,
+      "moveSpeed": -7,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "高",
+      "wear": "Factory_New"
+    },
+    {
+      "id": 9969,
+      "objectID": 10010009472,
+      "durability": 80,
+      "protectLevel": 6,
+      "aimSpeed": -1,
+      "moveSpeed": -3,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "中",
+      "wear": "Well_Worn"
+    },
+    {
+      "id": 9970,
+      "objectID": 10010002305,
+      "durability": 97,
+      "protectLevel": 6,
+      "aimSpeed": -1,
+      "moveSpeed": -3,
+      "repairEfficiency": "中",
+      "protectArea": "胸部,腹部,肩部",
+      "durableLoss": "中",
+      "wear": "Minimal_Wear"
+    }
+  ],
+  "chests": [
+    {
+      "id": 10022,
+      "objectID": 11070005003,
+      "aimSpeed": -3,
+      "moveSpeed": -1,
+      "capacity": 22,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 3
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 2
+        }
+      ]
+    },
+    {
+      "id": 10373,
+      "objectID": 11070001001,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 6,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        }
+      ]
+    },
+    {
+      "id": 10374,
+      "objectID": 11070001002,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 6,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        }
+      ]
+    },
+    {
+      "id": 10375,
+      "objectID": 11070001004,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 6,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        }
+      ]
+    },
+    {
+      "id": 10376,
+      "objectID": 11070001003,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 6,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        }
+      ]
+    },
+    {
+      "id": 10377,
+      "objectID": 11070002001,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 8,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        }
+      ]
+    },
+    {
+      "id": 10378,
+      "objectID": 11070002002,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 8,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2,
+            "hidden": true
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2,
+            "hidden": true
+          },
+          "column": 4
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 4
+        }
+      ]
+    },
+    {
+      "id": 10379,
+      "objectID": 11070002004,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 9,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 2
+        }
+      ]
+    },
+    {
+      "id": 10380,
+      "objectID": 11070002003,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 8,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 4
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10381,
+      "objectID": 11070003001,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 10,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 2
+        }
+      ]
+    },
+    {
+      "id": 10382,
+      "objectID": 11070003003,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 12,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 2
+        }
+      ]
+    },
+    {
+      "id": 10383,
+      "objectID": 11070003004,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 13,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 3,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        }
+      ]
+    },
+    {
+      "id": 10384,
+      "objectID": 11070003002,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 12,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 4
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 4
+        }
+      ]
+    },
+    {
+      "id": 10385,
+      "objectID": 11070004003,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 17,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 2
+        }
+      ]
+    },
+    {
+      "id": 10386,
+      "objectID": 11070004002,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "capacity": 16,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 2
+        }
+      ]
+    },
+    {
+      "id": 10387,
+      "objectID": 11070004001,
+      "aimSpeed": -1,
+      "moveSpeed": 0,
+      "capacity": 14,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 4
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 5
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 2
+        }
+      ]
+    },
+    {
+      "id": 10388,
+      "objectID": 11070004004,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 20,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 2,
+          "subColumn": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 2,
+          "subColumn": 2
+        }
+      ]
+    },
+    {
+      "id": 10389,
+      "objectID": 11070005004,
+      "aimSpeed": -5,
+      "moveSpeed": -1,
+      "capacity": 24,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 3
+          },
+          "column": 2
+        }
+      ]
+    },
+    {
+      "id": 10852,
+      "objectID": 11070005001,
+      "aimSpeed": -2,
+      "moveSpeed": 0,
+      "capacity": 22,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 1
+          },
+          "column": 3
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 2,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 2,
+          "subColumn": 1
+        }
+      ]
+    }
+  ],
+  "backpacks": [
+    {
+      "id": 10020,
+      "objectID": 11080001001,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 6,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 3
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10021,
+      "objectID": 11080003002,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "capacity": 18,
+      "grid": [
+        {
+          "grid": {
+            "X": 3,
+            "Y": 6
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10351,
+      "objectID": 11080001004,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 12,
+      "grid": [
+        {
+          "grid": {
+            "X": 4,
+            "Y": 3
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10352,
+      "objectID": 11080001002,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 8,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 4
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10353,
+      "objectID": 11080001003,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 10,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 5
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10354,
+      "objectID": 11080001005,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 10,
+      "grid": [
+        {
+          "grid": {
+            "X": 5,
+            "Y": 2
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10355,
+      "objectID": 11080002002,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 15,
+      "grid": [
+        {
+          "grid": {
+            "X": 3,
+            "Y": 5
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10356,
+      "objectID": 11080002004,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 15,
+      "grid": [
+        {
+          "grid": {
+            "X": 5,
+            "Y": 3
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10357,
+      "objectID": 11080002001,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 12,
+      "grid": [
+        {
+          "grid": {
+            "X": 3,
+            "Y": 4
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10358,
+      "objectID": 11080002003,
+      "aimSpeed": -1,
+      "moveSpeed": 0,
+      "capacity": 15,
+      "grid": [
+        {
+          "grid": {
+            "X": 3,
+            "Y": 5
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10359,
+      "objectID": 11080003003,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 20,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 4,
+            "Y": 3
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10360,
+      "objectID": 11080003004,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 20,
+      "grid": [
+        {
+          "grid": {
+            "X": 5,
+            "Y": 4
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10361,
+      "objectID": 11080003001,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "capacity": 16,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 4,
+            "Y": 3
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10362,
+      "objectID": 11080004003,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "capacity": 24,
+      "grid": [
+        {
+          "grid": {
+            "X": 4,
+            "Y": 6
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10363,
+      "objectID": 11080004004,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "capacity": 25,
+      "grid": [
+        {
+          "grid": {
+            "X": 5,
+            "Y": 5
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10364,
+      "objectID": 11080004002,
+      "aimSpeed": 0,
+      "moveSpeed": -2,
+      "capacity": 24,
+      "grid": [
+        {
+          "grid": {
+            "X": 4,
+            "Y": 5
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1,
+          "subColumn": 1
+        }
+      ]
+    },
+    {
+      "id": 10365,
+      "objectID": 11080004001,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 24,
+      "grid": [
+        {
+          "grid": {
+            "X": 4,
+            "Y": 4
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        }
+      ]
+    },
+    {
+      "id": 10366,
+      "objectID": 11080005001,
+      "aimSpeed": 0,
+      "moveSpeed": -2,
+      "capacity": 28,
+      "grid": [
+        {
+          "grid": {
+            "X": 4,
+            "Y": 5
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1,
+          "subColumn": 2
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 1
+          },
+          "column": 1,
+          "subColumn": 2
+        }
+      ]
+    },
+    {
+      "id": 10367,
+      "objectID": 11080005002,
+      "aimSpeed": 0,
+      "moveSpeed": -2,
+      "capacity": 28,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 3
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 4,
+            "Y": 4
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10368,
+      "objectID": 11080005003,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "capacity": 28,
+      "grid": [
+        {
+          "grid": {
+            "X": 4,
+            "Y": 7
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10369,
+      "objectID": 11080005004,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "capacity": 30,
+      "grid": [
+        {
+          "grid": {
+            "X": 5,
+            "Y": 6
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10370,
+      "objectID": 11080006002,
+      "aimSpeed": 0,
+      "moveSpeed": -2,
+      "capacity": 40,
+      "grid": [
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 3,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 1,
+            "Y": 2
+          },
+          "column": 1,
+          "subColumn": 1
+        },
+        {
+          "grid": {
+            "X": 5,
+            "Y": 6
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10371,
+      "objectID": 11080006004,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "capacity": 45,
+      "grid": [
+        {
+          "grid": {
+            "X": 5,
+            "Y": 9
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10372,
+      "objectID": 11080006003,
+      "aimSpeed": 0,
+      "moveSpeed": -1,
+      "capacity": 35,
+      "grid": [
+        {
+          "grid": {
+            "X": 5,
+            "Y": 7
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10853,
+      "objectID": 11080003005,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 21,
+      "grid": [
+        {
+          "grid": {
+            "X": 3,
+            "Y": 7
+          },
+          "column": 1
+        }
+      ]
+    },
+    {
+      "id": 10854,
+      "objectID": 11080004005,
+      "aimSpeed": 0,
+      "moveSpeed": 0,
+      "capacity": 28,
+      "grid": [
+        {
+          "grid": {
+            "X": 2,
+            "Y": 3
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 3
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 2
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 1
+        },
+        {
+          "grid": {
+            "X": 2,
+            "Y": 2
+          },
+          "column": 2
+        }
+      ]
+    }
+  ]
+}
