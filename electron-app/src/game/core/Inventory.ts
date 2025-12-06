@@ -96,7 +96,7 @@ export class Inventory {
    */
   private initContent(cellSize: number): void {
     if (this.type === 1) {
-      // 玩家盒子布局
+      // 玩家盒子布局（带安全箱）
       this.initPlayerInventory(cellSize);
     } else if (this.type === 0) {
       // 战利品箱布局
@@ -104,60 +104,25 @@ export class Inventory {
     } else if (this.type === 2) {
       // 地面容器布局
       this.initGroundInventory(cellSize);
+    } else if (this.type === 3) {
+      // 玩家战利品布局（没有安全箱）
+      this.initPlayerLootInventory(cellSize);
     }
 
     this.refreshUI();
   }
 
   /**
-   * 初始化玩家盒子
+   * 初始化玩家盒子（三角洲行动布局 - 左侧装备，右侧物品）
    */
   private initPlayerInventory(cellSize: number): void {
-    let yOffset = 0;
     const spacing = 10;
+    const columnSpacing = 20;  // 左右列之间的间距
 
-    const gridConfigs = [
-      // 武器槽
-      { type: 'GridTitle', name: 'weaponTitle', title: '武器' },
-      {
-        type: 'Grid',
-        name: 'PrimaryWeapon1',
-        accept: ['gunRifle', 'gunSMG', 'gunShotgun', 'gunLMG', 'gunSniper'],
-        size: { width: 5, height: 2 },
-        cellSize: cellSize,
-        aspect: 2.0,
-        fullfill: true
-      },
-      {
-        type: 'Grid',
-        name: 'PrimaryWeapon2',
-        accept: ['gunRifle', 'gunSMG', 'gunShotgun', 'gunLMG', 'gunSniper'],
-        size: { width: 5, height: 2 },
-        cellSize: cellSize,
-        aspect: 2.0,
-        fullfill: true
-      },
-      {
-        type: 'Grid',
-        name: 'Secondary',
-        accept: ['gunPistol'],
-        size: { width: 3, height: 2 },
-        cellSize: cellSize,
-        aspect: 2.0,
-        fullfill: true
-      },
-      {
-        type: 'Grid',
-        name: 'Melee',
-        accept: ['knife'],
-        size: { width: 2, height: 2 },
-        cellSize: cellSize,
-        aspect: 2.0,
-        fullfill: true
-      },
-
-      // 装备槽
-      { type: 'GridTitle', name: 'equipmentTitle', title: '装备' },
+    // ========== 左列：装备栏 ==========
+    const leftColumnConfigs = [
+      // 头盔
+      { type: 'GridTitle', name: 'helmetTitle', title: '头盔' },
       {
         type: 'Grid',
         name: 'Helmet',
@@ -166,6 +131,9 @@ export class Inventory {
         cellSize: cellSize,
         fullfill: true
       },
+
+      // 护甲
+      { type: 'GridTitle', name: 'armorTitle', title: '护甲' },
       {
         type: 'Grid',
         name: 'Armor',
@@ -175,6 +143,42 @@ export class Inventory {
         fullfill: true
       },
 
+      // 副武器（手枪）
+      { type: 'GridTitle', name: 'secondaryTitle', title: '副武器（手枪）' },
+      {
+        type: 'Grid',
+        name: 'Secondary',
+        accept: ['gunPistol'],
+        size: { width: 3, height: 2 },
+        cellSize: cellSize,
+        fullfill: true
+      },
+
+      // 主武器1
+      { type: 'GridTitle', name: 'primary1Title', title: '主武器1' },
+      {
+        type: 'Grid',
+        name: 'PrimaryWeapon1',
+        accept: ['gunRifle', 'gunSMG', 'gunShotgun', 'gunLMG', 'gunSniper'],
+        size: { width: 5, height: 2 },
+        cellSize: cellSize,
+        fullfill: true
+      },
+
+      // 主武器2
+      { type: 'GridTitle', name: 'primary2Title', title: '主武器2' },
+      {
+        type: 'Grid',
+        name: 'PrimaryWeapon2',
+        accept: ['gunRifle', 'gunSMG', 'gunShotgun', 'gunLMG', 'gunSniper'],
+        size: { width: 5, height: 2 },
+        cellSize: cellSize,
+        fullfill: true
+      }
+    ];
+
+    // ========== 右列：物品栏 ==========
+    const rightColumnConfigs = [
       // 胸挂
       { type: 'GridTitle', name: 'chestRigTitle', title: '胸挂' },
       {
@@ -183,22 +187,25 @@ export class Inventory {
         accept: ['chest'],
         size: { width: 4, height: 2 },
         cellSize: cellSize,
-        fullfill: true
+        fullfill: true,
+        note: '绘制胸挂内部格子'
       },
       {
         type: 'GridContainer',
         name: 'ContainerChestRigs',
-        layout: [],
-        cellSize: cellSize
+        layout: [],  // 动态：装备后才显示
+        cellSize: cellSize,
+        note: '没有装备的时候就是空'
       },
 
-      // 口袋
+      // 口袋（固定5个独立的1x1格子）
       { type: 'GridTitle', name: 'pocketTitle', title: '口袋' },
       {
         type: 'GridContainer',
         name: 'pocket',
-        layout: [[4, 1, 0, 0]],
-        cellSize: cellSize
+        layout: [[5, 1, 0, 0]],  // 固定5个1x1格子
+        cellSize: cellSize,
+        note: '这里绘制脚挂内部格子'
       },
 
       // 背包
@@ -209,22 +216,25 @@ export class Inventory {
         accept: ['bag'],
         size: { width: 5, height: 5 },
         cellSize: cellSize,
-        fullfill: true
+        fullfill: true,
+        note: '绘制背包内部格子'
       },
       {
         type: 'GridContainer',
         name: 'ContainerBackpack',
-        layout: [],
-        cellSize: cellSize
+        layout: [],  // 动态：装备后才显示
+        cellSize: cellSize,
+        note: '没有装备的时候就是空'
       },
 
-      // 安全箱
+      // 安全箱（固定3x3格子）
       { type: 'GridTitle', name: 'secureTitle', title: '安全箱' },
       {
         type: 'GridContainer',
         name: 'ContainerSecure',
-        layout: [[3, 3, 0, 0]],
+        layout: [[3, 3, 0, 0]],  // 固定3x3格子
         cellSize: cellSize,
+        note: '这里是安全箱，固定3x3格子。安全箱格子不允许放入武器、配件、背包、胸挂，可以放入子弹和其他物品',
         rejectTypes: [
           // 武器类型
           'gunRifle',
@@ -251,69 +261,95 @@ export class Inventory {
       }
     ];
 
-    // 创建所有组件
-    for (const config of gridConfigs) {
-      let component: GridTitle | Subgrid | GridContainer;
-
-      if (config.type === 'GridTitle') {
-        component = new GridTitle(config.title!);
-      } else if (config.type === 'Grid') {
-        const subgrid = new Subgrid({
-          size: config.size!,
-          cellSize: config.cellSize!,
-          aspect: config.aspect || 1,
-          fullfill: config.fullfill || false,
-          acceptTypes: config.accept || [],
-          title: config.name
-        });
-        subgrid.parentRegion = this;
-
-        // 设置背包/胸挂的回调
-        if (config.name === 'ChestRig') {
-          this.setupChestRigCallbacks(subgrid);
-        } else if (config.name === 'Backpack') {
-          this.setupBackpackCallbacks(subgrid);
-        }
-
-        component = subgrid;
-      } else {
-        // GridContainer
-        const gridContainer = new GridContainer({
-          title: config.name,
-          layout: config.layout! as [number, number, number, number][],
-          cellSize: config.cellSize!,
-          rejectTypes: config.rejectTypes || []
-        });
-        gridContainer.parentRegion = this;
-        component = gridContainer;
-      }
-
-      component.container.y = yOffset;
+    // ========== 创建左列组件 ==========
+    let leftYOffset = 0;
+    for (const config of leftColumnConfigs) {
+      const component = this.createInventoryComponent(config, cellSize);
+      component.container.x = 0;  // 左列X=0
+      component.container.y = leftYOffset;
       this.contents[config.name] = component;
       this.container.addChild(component.container);
 
       // 计算下一个组件的Y偏移
-      if (config.type === 'GridTitle') {
-        yOffset += 30;
-      } else if (config.type === 'Grid') {
-        const pixelHeight = config.size!.height * config.cellSize!;
-        yOffset += pixelHeight + spacing;
-      } else {
-        // GridContainer - 动态计算高度
-        const gridContainer = component as GridContainer;
-        const { height } = gridContainer.getPixelSize();
-        yOffset += height + spacing;
-      }
+      leftYOffset += this.getComponentHeight(component, config) + spacing;
+    }
+
+    // ========== 创建右列组件 ==========
+    const leftColumnWidth = 5 * cellSize + columnSpacing;  // 左列宽度（最宽的是5格）
+    let rightYOffset = 0;
+    for (const config of rightColumnConfigs) {
+      const component = this.createInventoryComponent(config, cellSize);
+      component.container.x = leftColumnWidth;  // 右列X偏移
+      component.container.y = rightYOffset;
+      this.contents[config.name] = component;
+      this.container.addChild(component.container);
+
+      // 计算下一个组件的Y偏移
+      rightYOffset += this.getComponentHeight(component, config) + spacing;
     }
   }
 
   /**
-   * 初始化战利品箱
+   * 创建Inventory组件（辅助方法）
+   */
+  private createInventoryComponent(config: any, cellSize: number): GridTitle | Subgrid | GridContainer {
+    if (config.type === 'GridTitle') {
+      return new GridTitle(config.title!);
+    } else if (config.type === 'Grid') {
+      const subgrid = new Subgrid({
+        size: config.size!,
+        cellSize: config.cellSize!,
+        aspect: config.aspect || 1,
+        fullfill: config.fullfill || false,
+        acceptTypes: config.accept || [],
+        title: config.name
+      });
+      subgrid.parentRegion = this;
+
+      // 设置背包/胸挂的回调
+      if (config.name === 'ChestRig') {
+        this.setupChestRigCallbacks(subgrid);
+      } else if (config.name === 'Backpack') {
+        this.setupBackpackCallbacks(subgrid);
+      }
+
+      return subgrid;
+    } else {
+      // GridContainer
+      const gridContainer = new GridContainer({
+        title: config.name,
+        layout: config.layout! as [number, number, number, number][],
+        cellSize: config.cellSize!,
+        rejectTypes: config.rejectTypes || []
+      });
+      gridContainer.parentRegion = this;
+      return gridContainer;
+    }
+  }
+
+  /**
+   * 获取组件高度（辅助方法）
+   */
+  private getComponentHeight(component: GridTitle | Subgrid | GridContainer, config: any): number {
+    if (config.type === 'GridTitle') {
+      return 30;
+    } else if (config.type === 'Grid') {
+      return config.size!.height * config.cellSize!;
+    } else {
+      // GridContainer - 动态计算高度
+      const gridContainer = component as GridContainer;
+      const { height } = gridContainer.getPixelSize();
+      return height;
+    }
+  }
+
+  /**
+   * 初始化战利品箱（三角洲行动 - 7x8网格）
    */
   private initLootInventory(cellSize: number): void {
-    // 简单的6x8网格
+    // 战利品箱：7x8网格
     const subgrid = new Subgrid({
-      size: { width: 6, height: 8 },
+      size: { width: 7, height: 8 },
       cellSize: cellSize,
       title: 'LootGrid'
     });
@@ -324,12 +360,12 @@ export class Inventory {
   }
 
   /**
-   * 初始化地面容器
+   * 初始化地面容器（三角洲行动 - 15x8网格）
    */
   private initGroundInventory(cellSize: number): void {
-    // 大型网格用于地面物品
+    // 地面容器：15x8网格（可放置所有被丢弃的物品）
     const subgrid = new Subgrid({
-      size: { width: 12, height: 12 },
+      size: { width: 15, height: 8 },
       cellSize: cellSize,
       title: 'GroundGrid'
     });
@@ -337,6 +373,145 @@ export class Inventory {
 
     this.contents['GroundGrid'] = subgrid;
     this.container.addChild(subgrid.container);
+  }
+
+  /**
+   * 初始化玩家战利品（三角洲行动布局 - 没有安全箱）
+   * 用于战利品模式下显示死亡玩家的物品
+   */
+  private initPlayerLootInventory(cellSize: number): void {
+    const spacing = 10;
+    const columnSpacing = 20;
+
+    // ========== 左列：装备栏 ==========
+    const leftColumnConfigs = [
+      // 头盔
+      { type: 'GridTitle', name: 'helmetTitle', title: '头盔' },
+      {
+        type: 'Grid',
+        name: 'Helmet',
+        accept: ['helmet'],
+        size: { width: 2, height: 2 },
+        cellSize: cellSize,
+        fullfill: true
+      },
+
+      // 护甲
+      { type: 'GridTitle', name: 'armorTitle', title: '护甲' },
+      {
+        type: 'Grid',
+        name: 'Armor',
+        accept: ['armor'],
+        size: { width: 3, height: 3 },
+        cellSize: cellSize,
+        fullfill: true
+      },
+
+      // 副武器（手枪）
+      { type: 'GridTitle', name: 'secondaryTitle', title: '副武器（手枪）' },
+      {
+        type: 'Grid',
+        name: 'Secondary',
+        accept: ['gunPistol'],
+        size: { width: 3, height: 2 },
+        cellSize: cellSize,
+        fullfill: true
+      },
+
+      // 主武器1
+      { type: 'GridTitle', name: 'primary1Title', title: '主武器1' },
+      {
+        type: 'Grid',
+        name: 'PrimaryWeapon1',
+        accept: ['gunRifle', 'gunSMG', 'gunShotgun', 'gunLMG', 'gunSniper'],
+        size: { width: 5, height: 2 },
+        cellSize: cellSize,
+        fullfill: true
+      },
+
+      // 主武器2
+      { type: 'GridTitle', name: 'primary2Title', title: '主武器2' },
+      {
+        type: 'Grid',
+        name: 'PrimaryWeapon2',
+        accept: ['gunRifle', 'gunSMG', 'gunShotgun', 'gunLMG', 'gunSniper'],
+        size: { width: 5, height: 2 },
+        cellSize: cellSize,
+        fullfill: true
+      }
+    ];
+
+    // ========== 右列：物品栏（没有安全箱！）==========
+    const rightColumnConfigs = [
+      // 胸挂
+      { type: 'GridTitle', name: 'chestRigTitle', title: '胸挂' },
+      {
+        type: 'Grid',
+        name: 'ChestRig',
+        accept: ['chest'],
+        size: { width: 4, height: 2 },
+        cellSize: cellSize,
+        fullfill: true
+      },
+      {
+        type: 'GridContainer',
+        name: 'ContainerChestRigs',
+        layout: [],
+        cellSize: cellSize
+      },
+
+      // 口袋
+      { type: 'GridTitle', name: 'pocketTitle', title: '口袋' },
+      {
+        type: 'GridContainer',
+        name: 'pocket',
+        layout: [[5, 1, 0, 0]],
+        cellSize: cellSize
+      },
+
+      // 背包
+      { type: 'GridTitle', name: 'backpackTitle', title: '背包' },
+      {
+        type: 'Grid',
+        name: 'Backpack',
+        accept: ['bag'],
+        size: { width: 5, height: 5 },
+        cellSize: cellSize,
+        fullfill: true
+      },
+      {
+        type: 'GridContainer',
+        name: 'ContainerBackpack',
+        layout: [],
+        cellSize: cellSize
+      }
+      // 注意：没有安全箱！
+    ];
+
+    // ========== 创建左列组件 ==========
+    let leftYOffset = 0;
+    for (const config of leftColumnConfigs) {
+      const component = this.createInventoryComponent(config, cellSize);
+      component.container.x = 0;
+      component.container.y = leftYOffset;
+      this.contents[config.name] = component;
+      this.container.addChild(component.container);
+
+      leftYOffset += this.getComponentHeight(component, config) + spacing;
+    }
+
+    // ========== 创建右列组件 ==========
+    const leftColumnWidth = 5 * cellSize + columnSpacing;
+    let rightYOffset = 0;
+    for (const config of rightColumnConfigs) {
+      const component = this.createInventoryComponent(config, cellSize);
+      component.container.x = leftColumnWidth;
+      component.container.y = rightYOffset;
+      this.contents[config.name] = component;
+      this.container.addChild(component.container);
+
+      rightYOffset += this.getComponentHeight(component, config) + spacing;
+    }
   }
 
   // ========== 回调设置方法 ==========
