@@ -17,5 +17,8 @@ contextBridge.exposeInMainWorld('electronAPI', {
   getAppPath: () => ipcRenderer.invoke('get-app-path'),
 
   // 图片加载
-  loadLocalImage: (imagePath) => ipcRenderer.invoke('load-local-image', imagePath)
+  loadLocalImage: (imagePath) => ipcRenderer.invoke('load-local-image', imagePath),
+
+  // 打开游戏窗口
+  openGame: () => ipcRenderer.send('open-game')
 });

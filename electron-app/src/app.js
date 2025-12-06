@@ -350,6 +350,11 @@ createApp({
   },
 
   methods: {
+    // 打开游戏
+    openGame() {
+      window.electronAPI.openGame();
+    },
+
     // 加载数据
     async loadData() {
       try {

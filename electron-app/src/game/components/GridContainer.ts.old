@@ -1,0 +1,235 @@
+import * as PIXI from 'pixi.js';
+import { GridSystem } from '@core/GridSystem';
+import { DragDropSystem } from '@core/DragDropSystem';
+import { ItemSprite } from './ItemSprite';
+import { Item } from '@entities/Item';
+import type { GridContainerConfig } from '@types';
+
+/**
+ * 网格容器组件
+ * 用于背包、胸挂、口袋等基于网格的容器
+ */
+export class GridContainer extends PIXI.Container {
+  public readonly gridSystem: GridSystem;
+  public readonly targetId: string;
+
+  private config: GridContainerConfig;
+  private background: PIXI.Graphics;
+  private gridLines: PIXI.Graphics;
+  private itemsContainer: PIXI.Container;
+  private itemSprites: Map<Item, ItemSprite> = new Map();
+  private dragDropSystem: DragDropSystem | null = null;
+
+  constructor(targetId: string, config: GridContainerConfig) {
+    super();
+
+    this.targetId = targetId;
+    this.config = config;
+    this.gridSystem = new GridSystem(config);
+
+    // 创建背景
+    this.background = new PIXI.Graphics();
+    this.addChild(this.background);
+
+    // 创建网格线
+    this.gridLines = new PIXI.Graphics();
+    this.addChild(this.gridLines);
+
+    // 创建物品容器
+    this.itemsContainer = new PIXI.Container();
+    this.addChild(this.itemsContainer);
+
+    // 绘制容器
+    this.draw();
+  }
+
+  /**
+   * 绘制容器
+   */
+  private draw(): void {
+    const width = this.config.gridWidth * this.config.cellSize;
+    const height = this.config.gridHeight * this.config.cellSize;
+    const padding = this.config.padding;
+
+    // 绘制背景
+    this.background.clear();
+    this.background.beginFill(0x222222, 0.8);
+    this.background.lineStyle(2, 0x555555, 1);
+    this.background.drawRect(
+      -padding,
+      -padding,
+      width + padding * 2,
+      height + padding * 2
+    );
+    this.background.endFill();
+
+    // 绘制网格线
+    this.gridLines.clear();
+    this.gridLines.lineStyle(1, 0x444444, 0.5);
+
+    // 垂直线
+    for (let x = 0; x <= this.config.gridWidth; x++) {
+      const xPos = x * this.config.cellSize;
+      this.gridLines.moveTo(xPos, 0);
+      this.gridLines.lineTo(xPos, height);
+    }
+
+    // 水平线
+    for (let y = 0; y <= this.config.gridHeight; y++) {
+      const yPos = y * this.config.cellSize;
+      this.gridLines.moveTo(0, yPos);
+      this.gridLines.lineTo(width, yPos);
+    }
+  }
+
+  /**
+   * 设置拖拽系统
+   */
+  setDragDropSystem(system: DragDropSystem): void {
+    this.dragDropSystem = system;
+
+    // 注册为拖拽目标
+    system.registerDragTarget(this.targetId, {
+      gridSystem: this.gridSystem,
+      container: this,
+      onItemDropped: this.onItemDropped.bind(this),
+      onItemRemoved: this.onItemRemoved.bind(this),
+    });
+
+    // 为现有物品设置拖拽系统
+    this.itemSprites.forEach(sprite => {
+      sprite.setDragDropSystem(system, this.targetId);
+    });
+  }
+
+  /**
+   * 添加物品
+   */
+  addItem(item: Item, gridX?: number, gridY?: number): boolean {
+    let success = false;
+
+    if (gridX !== undefined && gridY !== undefined) {
+      // 放置到指定位置
+      success = this.gridSystem.placeItem(item, gridX, gridY);
+    } else {
+      // 自动寻找位置
+      success = this.gridSystem.autoPlaceItem(item);
+    }
+
+    if (success) {
+      this.createItemSprite(item);
+    }
+
+    return success;
+  }
+
+  /**
+   * 移除物品
+   */
+  removeItem(item: Item): boolean {
+    const sprite = this.itemSprites.get(item);
+    if (!sprite) return false;
+
+    // 从网格系统移除
+    this.gridSystem.removeItem(item);
+
+    // 移除sprite
+    this.itemsContainer.removeChild(sprite);
+    sprite.destroy();
+    this.itemSprites.delete(item);
+
+    return true;
+  }
+
+  /**
+   * 创建物品sprite
+   */
+  private createItemSprite(item: Item): void {
+    const placed = this.gridSystem.getPlacedItem(item);
+    if (!placed) return;
+
+    // 创建sprite
+    const sprite = new ItemSprite(item, this.config.cellSize);
+
+    // 设置拖拽系统
+    if (this.dragDropSystem) {
+      sprite.setDragDropSystem(this.dragDropSystem, this.targetId);
+    }
+
+    // 设置位置
+    const pixelPos = this.gridSystem.gridToPixel(placed.gridX, placed.gridY);
+    sprite.position.set(pixelPos.x, pixelPos.y);
+
+    // 添加到容器
+    this.itemsContainer.addChild(sprite);
+    this.itemSprites.set(item, sprite);
+  }
+
+  /**
+   * 物品被放置时的回调
+   */
+  private onItemDropped(item: Item): void {
+    this.createItemSprite(item);
+  }
+
+  /**
+   * 物品被移除时的回调
+   */
+  private onItemRemoved(item: Item): void {
+    const sprite = this.itemSprites.get(item);
+    if (sprite) {
+      this.itemsContainer.removeChild(sprite);
+      sprite.destroy();
+      this.itemSprites.delete(item);
+    }
+  }
+
+  /**
+   * 获取所有物品
+   */
+  getAllItems(): Item[] {
+    return this.gridSystem.getAllPlacedItems().map(p => p.item);
+  }
+
+  /**
+   * 清空容器
+   */
+  clear(): void {
+    // 移除所有sprites
+    this.itemSprites.forEach(sprite => {
+      sprite.destroy();
+    });
+    this.itemSprites.clear();
+    this.itemsContainer.removeChildren();
+
+    // 清空网格系统
+    this.gridSystem.clear();
+  }
+
+  /**
+   * 获取容器尺寸
+   */
+  getSize(): { width: number; height: number } {
+    return {
+      width: this.config.gridWidth * this.config.cellSize + this.config.padding * 2,
+      height: this.config.gridHeight * this.config.cellSize + this.config.padding * 2,
+    };
+  }
+
+  /**
+   * 销毁
+   */
+  override destroy(options?: boolean | PIXI.IDestroyOptions): void {
+    // 取消注册拖拽目标
+    if (this.dragDropSystem) {
+      this.dragDropSystem.unregisterDragTarget(this.targetId);
+    }
+
+    this.clear();
+    this.background.destroy();
+    this.gridLines.destroy();
+    this.itemsContainer.destroy();
+
+    super.destroy(options);
+  }
+}

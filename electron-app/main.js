@@ -3,6 +3,7 @@ const path = require('path');
 const fs = require('fs').promises;
 
 let mainWindow;
+let gameWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
@@ -109,4 +110,38 @@ ipcMain.handle('load-local-image', async (event, imagePath) => {
   } catch (error) {
     return { success: false, error: error.message };
   }
+});
+
+// 创建游戏窗口
+function createGameWindow() {
+  if (gameWindow) {
+    gameWindow.focus();
+    return;
+  }
+
+  gameWindow = new BrowserWindow({
+    width: 1920,
+    height: 1080,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false
+    },
+    icon: path.join(__dirname, 'assets', 'icon.png')
+  });
+
+  gameWindow.loadFile('game.html');
+
+  // 开发模式下打开开发者工具
+  if (process.env.NODE_ENV === 'development') {
+    gameWindow.webContents.openDevTools();
+  }
+
+  gameWindow.on('closed', () => {
+    gameWindow = null;
+  });
+}
+
+// IPC 处理器 - 打开游戏
+ipcMain.on('open-game', () => {
+  createGameWindow();
 });

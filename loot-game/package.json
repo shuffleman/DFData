@@ -1,0 +1,19 @@
+{
+  "name": "loot-game",
+  "version": "1.0.0",
+  "description": "战利品收集整理游戏 - 基于PixiJS的装备管理游戏",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pixi.js": "^7.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}

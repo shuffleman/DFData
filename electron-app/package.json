@@ -5,16 +5,28 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder"
+    "build": "electron-builder",
+    "build:game": "webpack --config webpack.config.js",
+    "watch:game": "webpack --config webpack.config.js --watch"
   },
-  "keywords": ["electron", "game", "data", "manager"],
+  "keywords": [
+    "electron",
+    "game",
+    "data",
+    "manager"
+  ],
   "author": "DFData Team",
   "license": "MIT",
   "devDependencies": {
     "electron": "^28.0.0",
-    "electron-builder": "^24.9.1"
+    "electron-builder": "^24.9.1",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
+    "pixi.js": "^7.3.2",
     "vue": "^3.4.0"
   },
   "build": {
@@ -39,7 +51,9 @@
       "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
     ],
     "win": {
-      "target": ["nsis"],
+      "target": [
+        "nsis"
+      ],
       "icon": "assets/icon.ico"
     },
     "nsis": {
