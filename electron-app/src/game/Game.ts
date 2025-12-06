@@ -322,30 +322,37 @@ export class Game {
   }
 
   /**
-   * 使用默认配置加载战利品区域
+   * 使用默认配置加载战利品区域（三角洲行动）
    */
   private loadDefaultSpoilsConfig(region: Region): void {
     console.log('[Game] 使用默认配置初始化战利品区域');
 
-    this.defaultSpoilsRegionConfig.forEach((val) => {
-      if (val.type === 'groundContainer') {
-        console.log('[Game] 添加地面容器:', val.title);
-        const inventory = region.addInventory(2, false, val.title);
-        inventory.setEnabled(false);
+    // 1. 地面容器 (15x8)
+    console.log('[Game] 添加地面容器');
+    const groundInventory = region.addInventory(2, false, '地面容器');
+    this.addTestItemsToInventory(groundInventory, 15);
 
-        // 添加一些测试物品到地面容器
-        this.addTestItemsToInventory(inventory, 10);
-      } else if (val.type === 'spoilsBox') {
-        console.log('[Game] 添加战利品容器:', val.title);
-        const inventory = region.addInventory(0, false, val.title);
-        inventory.setEnabled(false);
+    // 2. 战利品箱1 (7x8)
+    console.log('[Game] 添加战利品箱1');
+    const loot1 = region.addInventory(0, false, '战利品箱1');
+    this.addTestItemsToInventory(loot1, 10);
 
-        // 添加一些测试物品到战利品箱
-        this.addTestItemsToInventory(inventory, 15);
-      }
-    });
+    // 3. 战利品箱2 (7x8)
+    console.log('[Game] 添加战利品箱2');
+    const loot2 = region.addInventory(0, false, '战利品箱2');
+    this.addTestItemsToInventory(loot2, 8);
 
-    console.log('[Game] 战利品区域初始化完成，inventories 数量:', region.inventories.length);
+    // 4. 战利品箱3 (7x8)
+    console.log('[Game] 添加战利品箱3');
+    const loot3 = region.addInventory(0, false, '战利品箱3');
+    this.addTestItemsToInventory(loot3, 12);
+
+    // 5. 玩家战利品 (type=3, 没有安全箱)
+    console.log('[Game] 添加玩家战利品');
+    const playerLoot = region.addInventory(3, false, '敌人战利品');
+    // 玩家战利品不添加测试物品，保持空状态
+
+    console.log('[Game] 战利品区域初始化完成，共 ' + region.inventories.length + ' 个标签页');
   }
 
   /**
