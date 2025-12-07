@@ -15,6 +15,8 @@ nul
 
 # AI 生成的说明文档（不提交）
 README*.md
+!.github/workflows/README.md
+!electron-app/assets/README.md
 DESIGN*.md
 ARCHITECTURE*.md
 TODO*.md

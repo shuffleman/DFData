@@ -36,6 +36,8 @@ export class Region {
   private titleBarBG: PIXI.Graphics | null = null;
   private titleText: PIXI.Text | null = null;
   private contentBG: PIXI.Graphics | null = null;
+  private tabContainer: PIXI.Container | null = null;  // 标签页容器
+  private tabButtons: PIXI.Container[] = [];            // 标签页按钮
 
   // ========== Inventory 管理 ==========
   public readonly inventories: Inventory[] = [];
@@ -105,17 +107,22 @@ export class Region {
     );
     this.contentBG.endFill();
     this.container.addChild(this.contentBG);
+
+    // 标签页容器（在标题栏右侧）
+    this.tabContainer = new PIXI.Container();
+    this.tabContainer.position.set(150, 5);  // 标题文本右侧
+    this.container.addChild(this.tabContainer);
   }
 
   // ========== Inventory 管理方法 ==========
 
   /**
    * 添加一个 Inventory
-   * @param type 0=战利品箱, 1=玩家盒, 2=地面容器
+   * @param type 0=战利品箱, 1=玩家盒, 2=地面容器, 3=玩家战利品
    * @param needToInit 是否需要初始化内容
    * @param title Inventory 标题
    */
-  addInventory(type: 0 | 1 | 2, needToInit: boolean = true, title: string = ''): Inventory {
+  addInventory(type: 0 | 1 | 2 | 3, needToInit: boolean = true, title: string = ''): Inventory {
     const inventoryTitle = title || `${this.options.title} ${this.inventories.length + 1}`;
 
     // 根据 type 设置 scrollable 值
@@ -134,6 +141,7 @@ export class Region {
       this.options.titleHeight || 0
     );
 
+    const inventoryIndex = this.inventories.length;
     this.inventories.push(inventory);
     this.container.addChild(inventory.container);
 
@@ -146,7 +154,112 @@ export class Region {
     // 默认禁用（只有当前选中的才启用）
     inventory.setEnabled(false);
 
+    // 创建标签按钮（如果有多个Inventory）
+    if (this.inventories.length > 1 || inventoryIndex === 0) {
+      this.createTabButton(inventoryIndex, inventoryTitle);
+      this.updateTabButtons();
+    }
+
     return inventory;
+  }
+
+  /**
+   * 创建标签按钮
+   */
+  private createTabButton(index: number, title: string): void {
+    const tabButton = new PIXI.Container();
+    tabButton.interactive = true;
+    tabButton.cursor = 'pointer';
+
+    // 按钮背景
+    const bg = new PIXI.Graphics();
+    const bgWidth = 100;
+    const bgHeight = 30;
+    bg.beginFill(0x333333, 0.8);
+    bg.drawRoundedRect(0, 0, bgWidth, bgHeight, 5);
+    bg.endFill();
+    tabButton.addChild(bg);
+
+    // 按钮文本
+    const text = new PIXI.Text(title, {
+      fontFamily: 'Arial',
+      fontSize: 14,
+      fill: 0xffffff,
+      fontWeight: 'normal'
+    });
+    text.anchor.set(0.5);
+    text.position.set(bgWidth / 2, bgHeight / 2);
+    tabButton.addChild(text);
+
+    // 点击事件
+    tabButton.on('pointerdown', () => {
+      this.switchTo(index);
+    });
+
+    // 鼠标悬停效果
+    tabButton.on('pointerover', () => {
+      if (index !== this.currentInventoryId) {
+        bg.clear();
+        bg.beginFill(0x444444, 0.9);
+        bg.drawRoundedRect(0, 0, bgWidth, bgHeight, 5);
+        bg.endFill();
+      }
+    });
+
+    tabButton.on('pointerout', () => {
+      if (index !== this.currentInventoryId) {
+        bg.clear();
+        bg.beginFill(0x333333, 0.8);
+        bg.drawRoundedRect(0, 0, bgWidth, bgHeight, 5);
+        bg.endFill();
+      }
+    });
+
+    // 存储按钮引用
+    this.tabButtons[index] = tabButton;
+    this.tabContainer?.addChild(tabButton);
+  }
+
+  /**
+   * 更新标签按钮布局
+   */
+  private updateTabButtons(): void {
+    let xOffset = 0;
+    const spacing = 5;
+
+    for (let i = 0; i < this.tabButtons.length; i++) {
+      const tabButton = this.tabButtons[i];
+      if (tabButton) {
+        tabButton.position.set(xOffset, 0);
+        xOffset += 105; // 按钮宽度 + 间距
+      }
+    }
+  }
+
+  /**
+   * 更新标签按钮的激活状态
+   */
+  private updateTabButtonStates(): void {
+    for (let i = 0; i < this.tabButtons.length; i++) {
+      const tabButton = this.tabButtons[i];
+      if (!tabButton) continue;
+
+      const bg = tabButton.getChildAt(0) as PIXI.Graphics;
+      const isActive = i === this.currentInventoryId;
+
+      bg.clear();
+      if (isActive) {
+        // 激活状态 - 蓝色高亮
+        bg.beginFill(0x4a9eff, 1.0);
+        bg.drawRoundedRect(0, 0, 100, 30, 5);
+        bg.endFill();
+      } else {
+        // 非激活状态 - 深灰色
+        bg.beginFill(0x333333, 0.8);
+        bg.drawRoundedRect(0, 0, 100, 30, 5);
+        bg.endFill();
+      }
+    }
   }
 
   /**
@@ -175,8 +288,8 @@ export class Region {
     this.currentInventoryId = id;
     this.inventories[this.currentInventoryId].setEnabled(true);
 
-    // TODO: 更新切换器 UI
-    // this.switcherUI?.updateText(`区域 ${this.currentInventoryId + 1}/${this.inventories.length}`);
+    // 更新标签按钮状态
+    this.updateTabButtonStates();
 
     console.log(`[Region] 切换到 Inventory ${id + 1}/${this.inventories.length}`);
   }

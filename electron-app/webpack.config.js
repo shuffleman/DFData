@@ -19,6 +19,7 @@ module.exports = {
       '@components': path.resolve(__dirname, 'src/game/components'),
       '@types': path.resolve(__dirname, 'src/game/types'),
       '@entities': path.resolve(__dirname, 'src/game/entities'),
+      '@managers': path.resolve(__dirname, 'src/game/managers'),
     },
   },
   output: {

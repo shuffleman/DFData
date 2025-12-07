@@ -230,9 +230,10 @@ export interface GridContainerOptions {
  * Inventory 类型
  */
 export enum InventoryType {
-  PLAYER = 1,           // 玩家盒子
+  PLAYER = 1,           // 玩家盒子（带安全箱）
   LOOT = 0,             // 战利品箱
-  GROUND = 2            // 地面容器
+  GROUND = 2,           // 地面容器
+  PLAYER_LOOT = 3       // 玩家战利品（没有安全箱）
 }
 
 // ============================================================================
