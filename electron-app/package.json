@@ -36,8 +36,8 @@
     "webpack-cli": "^6.0.1"
   },
   "dependencies": {
-    "pixi.js": "^7.3.2",
-    "vue": "^3.4.0"
+    "pixi.js": "^8.9.1",
+    "@pixi/text": "^7.4.3"
   },
   "build": {
     "appId": "com.dfdata.manager",
