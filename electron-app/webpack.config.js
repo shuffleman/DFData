@@ -15,11 +15,7 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.js'],
     alias: {
-      '@core': path.resolve(__dirname, 'src/game/core'),
       '@components': path.resolve(__dirname, 'src/game/components'),
-      '@types': path.resolve(__dirname, 'src/game/types'),
-      '@entities': path.resolve(__dirname, 'src/game/entities'),
-      '@managers': path.resolve(__dirname, 'src/game/managers'),
     },
   },
   output: {

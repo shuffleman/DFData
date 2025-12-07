@@ -1,0 +1,150 @@
+{
+  "slot_muzzle": {
+    "nameCN": "枪口",
+    "accType": "accMuzzle"
+  },
+  "slot_barrel": {
+    "nameCN": "枪管",
+    "accType": "accBarrel"
+  },
+  "slot_special": {
+    "nameCN": "独特",
+    "accType": "accFunctional"
+  },
+  "slot_scope": {
+    "nameCN": "瞄准镜",
+    "accType": "accScope"
+  },
+  "slot_side_scope": {
+    "nameCN": "侧瞄具",
+    "accType": "accScope"
+  },
+  "slot_magazine_base": {
+    "nameCN": "弹匣座",
+    "accType": "accMagazine"
+  },
+  "slot_bipod": {
+    "nameCN": "导轨脚架",
+    "accType": "accFunctional"
+  },
+  "slot_left_rail": {
+    "nameCN": "左导轨",
+    "accType": "accFunctional"
+  },
+  "slot_right_rail": {
+    "nameCN": "右导轨",
+    "accType": "accFunctional"
+  },
+  "slot_left_patch": {
+    "nameCN": "左贴片",
+    "accType": "accFunctional"
+  },
+  "slot_right_patch": {
+    "nameCN": "右贴片",
+    "accType": "accFunctional"
+  },
+  "slot_bow_arm": {
+    "nameCN": "弓臂",
+    "accType": "accFunctional"
+  },
+  "slot_bow_scope": {
+    "nameCN": "弓瞄具",
+    "accType": "accFunctional"
+  },
+  "slot_bowstring": {
+    "nameCN": "弓弦",
+    "accType": "accFunctional"
+  },
+  "slot_bow_rod": {
+    "nameCN": "稳定杆",
+    "accType": "accFunctional"
+  },
+  "slot_bow_grip": {
+    "nameCN": "握把片",
+    "accType": "accFunctional"
+  },
+  "slot_arrow_rest": {
+    "nameCN": "箭台",
+    "accType": "accFunctional"
+  },
+  "slot_stock": {
+    "nameCN": "枪托",
+    "accType": "accStock"
+  },
+  "slot_lever": {
+    "nameCN": "杠杆",
+    "accType": "accFunctional"
+  },
+  "slot_magazine": {
+    "nameCN": "弹匣",
+    "accType": "accMagazine"
+  },
+  "slot_handguard": {
+    "nameCN": "护木",
+    "accType": "accFunctional"
+  },
+  "slot_pistol_grip_1": {
+    "nameCN": "后握把",
+    "accType": "accBackGrip"
+  },
+  "slot_foregrip": {
+    "nameCN": "前握把",
+    "accType": "accForeGrip"
+  },
+  "slot_upper_rail": {
+    "nameCN": "上导轨",
+    "accType": "accFunctional"
+  },
+  "slot_upper_patch": {
+    "nameCN": "上贴片",
+    "accType": "accFunctional"
+  },
+  "slot_chin_supported": {
+    "nameCN": "托腮板",
+    "accType": "accFunctional"
+  },
+  "slot_mesh": {
+    "nameCN": "隔热网",
+    "accType": "accFunctional"
+  },
+  "slot_charge": {
+    "nameCN": "拉机柄",
+    "accType": "accFunctional"
+  },
+  "slot_lower_rail": {
+    "nameCN": "下导轨",
+    "accType": "accFunctional"
+  },
+  "slot_trigger": {
+    "nameCN": "扳机",
+    "accType": "accFunctional"
+  },
+  "slot_handguard_kit": {
+    "nameCN": "护木套件",
+    "accType": "accFunctional"
+  },
+  "slot_hammer": {
+    "nameCN": "击锤",
+    "accType": "accFunctional"
+  },
+  "slot_stock_pad": {
+    "nameCN": "枪托垫",
+    "accType": "accFunctional"
+  },
+  "slot_reciever": {
+    "nameCN": "枪机",
+    "accType": "accFunctional"
+  },
+  "slot_gas_block": {
+    "nameCN": "导气",
+    "accType": "accFunctional"
+  },
+  "slot_upper_handguard": {
+    "nameCN": "上护木",
+    "accType": "accFunctional"
+  },
+  "slot_stock_kit": {
+    "nameCN": "枪托套件",
+    "accType": "accFunctional"
+  }
+}

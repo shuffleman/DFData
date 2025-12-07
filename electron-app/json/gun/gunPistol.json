@@ -1,0 +1,343 @@
+{
+  "jData": {
+    "data": {
+      "data": {
+        "list": [
+          {
+            "objectID": 18070000003,
+            "objectName": ".357左轮",
+            "primaryClass": "gun",
+            "secondClass": "gunPistol",
+            "grade": 0,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/18070000003.png",
+            "baseValue": 14130,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo.357",
+              "capacity": 6,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18070000004,
+            "objectName": "沙漠之鹰",
+            "primaryClass": "gun",
+            "secondClass": "gunPistol",
+            "grade": 0,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/18070000004.png",
+            "baseValue": 17640,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo.50",
+              "capacity": 7,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_lower_rail",
+                  "slotName": "下导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18070000033,
+            "objectName": "M1911",
+            "primaryClass": "gun",
+            "secondClass": "gunPistol",
+            "grade": 0,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/18070000033.png",
+            "baseValue": 16420,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": ".45ACP",
+              "capacity": 7,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_lower_rail",
+                  "slotName": "下导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_trigger",
+                  "slotName": "扳机",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_hammer",
+                  "slotName": "击锤",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18070000002,
+            "objectName": "QSZ92G",
+            "primaryClass": "gun",
+            "secondClass": "gunPistol",
+            "grade": 0,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/18070000002.png",
+            "baseValue": 4799,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x19",
+              "capacity": 15,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_lower_rail",
+                  "slotName": "下导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18070000006,
+            "objectName": "93R",
+            "primaryClass": "gun",
+            "secondClass": "gunPistol",
+            "grade": 0,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/18070000006.png",
+            "baseValue": 15885,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x19",
+              "capacity": 12,
+              "fireMode": "连发",
+              "accessory": [
+                {
+                  "slotID": "slot_lower_rail",
+                  "slotName": "下导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18070000010,
+            "objectName": "G17",
+            "primaryClass": "gun",
+            "secondClass": "gunPistol",
+            "grade": 0,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/18070000010.png",
+            "baseValue": 4799,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x19",
+              "capacity": 17,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_lower_rail",
+                  "slotName": "下导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18070000005,
+            "objectName": "G18",
+            "primaryClass": "gun",
+            "secondClass": "gunPistol",
+            "grade": 0,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/18070000005.png",
+            "baseValue": 18725,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x19",
+              "capacity": 17,
+              "fireMode": "全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_lower_rail",
+                  "slotName": "下导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

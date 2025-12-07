@@ -20,18 +20,22 @@
 
 ## Project Overview
 
-**DFData** is a comprehensive game equipment data management system designed for managing and visualizing game items, weapons, accessories, and equipment. The project consists of:
+**DFData** is a comprehensive game equipment data management system for Delta Force (三角洲行动). The project consists of:
 
-- **Electron Desktop Application**: A data management tool for viewing, editing, and analyzing game item data
-- **Loot Game**: An interactive PixiJS-based game for loot management and inventory systems
+- **Electron Desktop Application**: A cross-platform desktop app that embeds the loot simulator
+- **Delta Force Loot Simulator**: A complete web-based loot collection simulator (三角洲舔包模拟器)
+  - Realistic inventory management system
+  - Drag-and-drop item interaction
+  - Smart auto-organize功能
+  - 942 items with 1,161 images
 - **Data Processing Pipeline**: Python scripts for normalizing and processing raw game data
 
 ### Primary Use Cases
 
-1. Managing game item catalogs (weapons, accessories, protection, consumables, collectibles)
-2. Visualizing item statistics and distributions
-3. Testing inventory systems and loot mechanics
-4. Providing a user-friendly interface for non-technical team members to edit game data
+1. **Loot Collection Simulation**: Practice organizing loot from Delta Force raids
+2. **Inventory Management**: Test different packing strategies and container loadouts
+3. **Item Value Optimization**: Maximize loot value within limited inventory space
+4. **Game Mechanics Learning**: Understand weapon attachments, containers, and slot systems
 
 ---
 
@@ -43,53 +47,77 @@ DFData/
 │   └── workflows/             # GitHub Actions CI/CD workflows
 │       ├── build-release.yml  # Automated build and release workflow
 │       └── README.md          # CI/CD documentation
-├── electron-app/              # Main Electron desktop application
-│   ├── src/
-│   │   ├── game/              # Game logic (PixiJS-based)
-│   │   │   ├── components/    # UI components (ControlPanel, LootArea, PlayerArea)
-│   │   │   ├── core/          # Core systems (GridSystem, DragDropSystem, Inventory, etc.)
-│   │   │   ├── entities/      # Game entities (Item)
-│   │   │   ├── managers/      # Data and resource managers
-│   │   │   ├── types/         # TypeScript type definitions
-│   │   │   ├── config.ts      # Game configuration
-│   │   │   ├── Game.ts        # Main game class
-│   │   │   └── main.ts        # Entry point
-│   │   └── app.js             # Electron renderer process
+├── delta-force-loot-simulator/  # Web-based loot simulator (PRIMARY GAME)
+│   ├── src/                   # TypeScript source code
+│   │   ├── components/        # UI components (buttons, dialogs, etc.)
+│   │   ├── game.ts            # Main game class
+│   │   ├── item.ts            # Item entity with drag-drop
+│   │   ├── invntory.ts        # Inventory management
+│   │   ├── gridContainer.ts   # Multi-grid container system
+│   │   ├── itemManager.ts     # Resource & data manager
+│   │   └── main.ts            # Entry point
+│   ├── public/                # Static assets
+│   │   ├── json/              # Game data (guns, accessories, armor, etc.)
+│   │   └── images/            # 1,161 item images
+│   ├── dist/                  # Build output (loaded by Electron)
+│   ├── index.html             # Main HTML entry
+│   ├── vite.config.js         # Vite build configuration
+│   ├── launcher.py            # Standalone Python launcher
+│   ├── 使用说明.md            # Usage guide (Chinese)
+│   └── CLAUDE.md              # Development guide
+├── electron-app/              # Electron desktop wrapper
+│   ├── main.js                # Electron main process (loads delta-force-loot-simulator/dist/)
+│   ├── preload.js             # Electron preload script
 │   ├── assets/                # Application assets
 │   │   └── README.md          # Icon requirements documentation
-│   ├── normalized_data/       # Copy of normalized data
-│   ├── main.js                # Electron main process
-│   ├── preload.js             # Electron preload script
 │   ├── package.json           # Dependencies and build config
-│   ├── tsconfig.json          # TypeScript configuration
-│   ├── webpack.config.js      # Webpack bundler config
-│   ├── 使用指南.md            # User guide (Chinese)
-│   └── Windows打包说明.md     # Windows packaging guide (Chinese)
-├── loot-game/                 # Standalone loot game implementation
-│   └── src/                   # Similar structure to electron-app/src/game
+│   └── (legacy src/ removed)  # Old PixiJS implementation removed
 ├── normalized_data/           # Master data files (JSON)
 │   ├── items_catalog.json     # Main item catalog (all items)
 │   ├── weapons_spec.json      # Weapon specifications
 │   ├── accessories_spec.json  # Accessory specifications
-│   ├── ammunitions_spec.json  # Ammunition data
-│   ├── protection_spec.json   # Protective equipment data
-│   ├── consumables_spec.json  # Consumable items
-│   ├── collectibles_spec.json # Collectible items
-│   ├── slot_system.json       # Weapon modification slot system
-│   ├── index.json             # Quick lookup index
-│   └── OPTIMIZATION_REPORT.md # Data optimization notes
+│   └── ... (other data files)
 ├── process_props.py           # Python script for processing raw data
-└── .gitignore                 # Git ignore rules (excludes raw data, images, temp files)
+└── .gitignore                 # Git ignore rules
 ```
 
 ### Directory Purposes
 
 - **.github/**: GitHub Actions CI/CD workflows and automation
-- **electron-app/**: Production-ready desktop application for data management
-  - **assets/**: Application icons and resources for packaging
-- **loot-game/**: Experimental/testing game environment
+- **delta-force-loot-simulator/**: PRIMARY GAME - Full-featured loot simulator
+  - Web-based application built with Vite + PixiJS v8
+  - Can run standalone (via launcher.py) or embedded in Electron
+- **electron-app/**: Desktop wrapper for cross-platform distribution
+  - Embeds delta-force-loot-simulator/dist/ as the main UI
+  - Handles windowing, packaging, and desktop integration
 - **normalized_data/**: Single source of truth for all game item data
 - **Root level**: Data processing scripts and configuration
+
+### Architecture
+
+**Integration Model**: Electron loads Web Application
+
+```
+┌─────────────────────────────────────────┐
+│   Electron Desktop App (electron-app)   │
+│  ┌───────────────────────────────────┐  │
+│  │  BrowserWindow                    │  │
+│  │  ┌─────────────────────────────┐  │  │
+│  │  │ delta-force-loot-simulator │  │  │
+│  │  │ (Vite build output)        │  │  │
+│  │  │ - PixiJS v8 rendering      │  │  │
+│  │  │ - Game logic & UI          │  │  │
+│  │  │ - Item data & images       │  │  │
+│  │  └─────────────────────────────┘  │  │
+│  └───────────────────────────────────┘  │
+└─────────────────────────────────────────┘
+```
+
+**Key Points**:
+1. **delta-force-loot-simulator** is a complete, standalone web application
+2. **electron-app** simply wraps it for desktop distribution
+3. Build process: `delta-force-loot-simulator (Vite)` → `electron-app (Electron Builder)`
+4. The game can run independently via Python launcher or browser
 
 ---
 
@@ -131,38 +159,45 @@ DFData/
 ### Initial Setup
 
 ```bash
-# 1. Install dependencies for Electron app
-cd electron-app
+# 1. Install dependencies for loot simulator
+cd delta-force-loot-simulator
 npm install
 
-# 2. Build the game bundle
-npm run build:game
-
-# 3. Start the application
-npm start
+# 2. Install dependencies for Electron wrapper
+cd ../electron-app
+npm install
 ```
 
-### Development Mode
+### Development Mode - Web Only (Recommended)
 
 ```bash
-# Watch mode for TypeScript compilation
-npm run watch:game
+# Run standalone web version (fastest development)
+cd delta-force-loot-simulator
+npm run dev
+# Access at http://localhost:5173
+```
 
-# In another terminal, run Electron
-npm start
+### Development Mode - Electron
+
+```bash
+# Build web app and run in Electron
+cd electron-app
+npm run dev
 ```
 
 ### Building for Production
 
 ```bash
-# Build the game bundle
-npm run build:game
-
-# Package the Electron app
+# Build everything and package Electron app
+cd electron-app
 npm run build
+
+# This will:
+# 1. Build delta-force-loot-simulator (Vite)
+# 2. Package Electron app with embedded game
 ```
 
-**Output**: `electron-app/dist/` contains packaged application
+**Output**: `electron-app/dist/` contains packaged application for all platforms
 
 ### Data Processing Workflow
 

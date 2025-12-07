@@ -1,0 +1,3833 @@
+{
+  "jData": {
+    "data": {
+      "data": {
+        "list": [
+          {
+            "objectID": 18060000011,
+            "objectName": "AWM狙击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 6,
+            "width": 1,
+            "pic": "/images/18060000011.png",
+            "baseValue": 556459,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo.338",
+              "capacity": 5,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_special",
+                  "slotName": "独特",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18150000001,
+            "objectName": "复合弓",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18150000001.png",
+            "baseValue": 90000,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammoArrow",
+              "capacity": 1,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_bow_arm",
+                  "slotName": "弓臂",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_bow_scope",
+                  "slotName": "弓瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_bowstring",
+                  "slotName": "弓弦",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_bow_rod",
+                  "slotName": "稳定杆",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_bow_grip",
+                  "slotName": "握把片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_arrow_rest",
+                  "slotName": "箭台",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18050000032,
+            "objectName": "Marlin杠杆步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 1,
+            "pic": "/images/18050000032.png",
+            "baseValue": 53175,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo.45-70",
+              "capacity": 10,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_lever",
+                  "slotName": "杠杆",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18060000009,
+            "objectName": "M700狙击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 1,
+            "pic": "/images/18060000009.png",
+            "baseValue": 96000,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x51",
+              "capacity": 5,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18060000008,
+            "objectName": "R93狙击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 1,
+            "pic": "/images/18060000008.png",
+            "baseValue": 68375,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x51",
+              "capacity": 10,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_mesh",
+                  "slotName": "隔热网",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18060000007,
+            "objectName": "SV-98狙击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 1,
+            "pic": "/images/18060000007.png",
+            "baseValue": 62295,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x54",
+              "capacity": 7,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18050000004,
+            "objectName": "SVD狙击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18050000004.png",
+            "baseValue": 91800,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x54",
+              "capacity": 10,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000012,
+            "objectName": "ASh-12战斗步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000012.png",
+            "baseValue": 138641,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo12.7x55",
+              "capacity": 20,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18040000003,
+            "objectName": "M250通用机枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 6,
+            "width": 2,
+            "pic": "/images/18040000003.png",
+            "baseValue": 154909,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo6.8x51",
+              "capacity": 125,
+              "fireMode": "单发/全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18050000007,
+            "objectName": "SR-25射手步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 6,
+            "width": 2,
+            "pic": "/images/18050000007.png",
+            "baseValue": 166523,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x51",
+              "capacity": 10,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_patch",
+                  "slotName": "左贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_patch",
+                  "slotName": "右贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_patch",
+                  "slotName": "上贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18050000031,
+            "objectName": "PSG-1射手步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18050000031.png",
+            "baseValue": 113400,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x51",
+              "capacity": 10,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_trigger",
+                  "slotName": "扳机",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18050000008,
+            "objectName": "SR9射手步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18050000008.png",
+            "baseValue": 11250,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x51",
+              "capacity": 10,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_trigger",
+                  "slotName": "扳机",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18050000006,
+            "objectName": "SKS射手步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18050000006.png",
+            "baseValue": 41580,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x39",
+              "capacity": 10,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard_kit",
+                  "slotName": "护木套件",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18040000001,
+            "objectName": "PKM通用机枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18040000001.png",
+            "baseValue": 121593,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x54",
+              "capacity": 75,
+              "fireMode": "全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000043,
+            "objectName": "MK47突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000043.png",
+            "baseValue": 101296,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x39",
+              "capacity": 20,
+              "fireMode": "单发,全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_patch",
+                  "slotName": "左贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_patch",
+                  "slotName": "右贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_patch",
+                  "slotName": "上贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000021,
+            "objectName": "SCAR-H战斗步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000021.png",
+            "baseValue": 99320,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x51",
+              "capacity": 20,
+              "fireMode": "单发,全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000006,
+            "objectName": "AKM突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000006.png",
+            "baseValue": 120177,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x39",
+              "capacity": 30,
+              "fireMode": "单发,全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock_pad",
+                  "slotName": "枪托垫",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000023,
+            "objectName": "G3战斗步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000023.png",
+            "baseValue": 51577,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x51",
+              "capacity": 20,
+              "fireMode": "单发,全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18050000005,
+            "objectName": "M14射手步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18050000005.png",
+            "baseValue": 137125,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x51",
+              "capacity": 10,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard_kit",
+                  "slotName": "护木套件",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_chin_supported",
+                  "slotName": "托腮板",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000016,
+            "objectName": "M7战斗步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000016.png",
+            "baseValue": 219049,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo6.8x51",
+              "capacity": 20,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_patch",
+                  "slotName": "左贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_patch",
+                  "slotName": "右贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000008,
+            "objectName": "SR-3M紧凑突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18020000008.png",
+            "baseValue": 130233,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x39",
+              "capacity": 15,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000011,
+            "objectName": "QCQ171冲锋枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18020000011.png",
+            "baseValue": 81753,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x19",
+              "capacity": 30,
+              "fireMode": "单发/全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_reciever",
+                  "slotName": "枪机",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000009,
+            "objectName": "勇士冲锋枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18020000009.png",
+            "baseValue": 50235,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x19",
+              "capacity": 30,
+              "fireMode": "单发,全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock_pad",
+                  "slotName": "枪托垫",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18050000003,
+            "objectName": "VSS射手步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18050000003.png",
+            "baseValue": 46813,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x39",
+              "capacity": 15,
+              "fireMode": "单发/全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000038,
+            "objectName": "腾龙突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000038.png",
+            "baseValue": 123182,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.8x42",
+              "capacity": 30,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_gas_block",
+                  "slotName": "导气",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000006,
+            "objectName": "SMG-45冲锋枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18020000006.png",
+            "baseValue": 51806,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo.45",
+              "capacity": 25,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000040,
+            "objectName": "K437突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000040.png",
+            "baseValue": 149564,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x35",
+              "capacity": 30,
+              "fireMode": "单发/全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000024,
+            "objectName": "PTR-32突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000024.png",
+            "baseValue": 47408,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo7.62x39",
+              "capacity": 30,
+              "fireMode": "单发,全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000010,
+            "objectName": "AKS-74U突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000010.png",
+            "baseValue": 12068,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.45x39",
+              "capacity": 20,
+              "fireMode": "单发,全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_handguard",
+                  "slotName": "上护木",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock_pad",
+                  "slotName": "枪托垫",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000014,
+            "objectName": "M16A4突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000014.png",
+            "baseValue": 12281,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.56x45",
+              "capacity": 20,
+              "fireMode": "连发,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_lower_rail",
+                  "slotName": "下导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock_kit",
+                  "slotName": "枪托套件",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000002,
+            "objectName": "P90冲锋枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18020000002.png",
+            "baseValue": 103655,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.7x28",
+              "capacity": 50,
+              "fireMode": "单发,全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_chin_supported",
+                  "slotName": "托腮板",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18050000002,
+            "objectName": "Mini-14射手步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18050000002.png",
+            "baseValue": 39092,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.56x45",
+              "capacity": 10,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000010,
+            "objectName": "MP7冲锋枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18020000010.png",
+            "baseValue": 140795,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo4.6x30",
+              "capacity": 20,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18040000004,
+            "objectName": "QJB201轻机枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18040000004.png",
+            "baseValue": 115513,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.8x42",
+              "capacity": 125,
+              "fireMode": "全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_gas_block",
+                  "slotName": "导气",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000015,
+            "objectName": "AUG突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18010000015.png",
+            "baseValue": 134554,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.56x45",
+              "capacity": 30,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_chin_supported",
+                  "slotName": "托腮板",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000005,
+            "objectName": "野牛冲锋枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18020000005.png",
+            "baseValue": 12100,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x19",
+              "capacity": 32,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock_pad",
+                  "slotName": "枪托垫",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000003,
+            "objectName": "Vector冲锋枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18020000003.png",
+            "baseValue": 125150,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo.45",
+              "capacity": 17,
+              "fireMode": "全自动,单发,连发",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000013,
+            "objectName": "K416突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000013.png",
+            "baseValue": 196374,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.56x45",
+              "capacity": 30,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_patch",
+                  "slotName": "左贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_patch",
+                  "slotName": "右贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_patch",
+                  "slotName": "上贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock_kit",
+                  "slotName": "枪托套件",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000001,
+            "objectName": "M4A1突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000001.png",
+            "baseValue": 123763,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.56x45",
+              "capacity": 30,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_patch",
+                  "slotName": "左贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_patch",
+                  "slotName": "右贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_patch",
+                  "slotName": "上贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock_kit",
+                  "slotName": "枪托套件",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18040000002,
+            "objectName": "M249轻机枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 6,
+            "width": 2,
+            "pic": "/images/18040000002.png",
+            "baseValue": 60918,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.56x45",
+              "capacity": 100,
+              "fireMode": "全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_bipod",
+                  "slotName": "导轨脚架",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000042,
+            "objectName": "KC17突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000042.png",
+            "baseValue": 115231,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.45x39",
+              "capacity": 30,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_patch",
+                  "slotName": "左贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_patch",
+                  "slotName": "右贴片",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000018,
+            "objectName": "AK-12突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000018.png",
+            "baseValue": 111507,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.45x39",
+              "capacity": 30,
+              "fireMode": "单发,全自动,连发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_upper_rail",
+                  "slotName": "上导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000001,
+            "objectName": "MP5冲锋枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 4,
+            "width": 2,
+            "pic": "/images/18020000001.png",
+            "baseValue": 52292,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x19",
+              "capacity": 30,
+              "fireMode": "全自动,单发,连发",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000037,
+            "objectName": "AS Val突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000037.png",
+            "baseValue": 162391,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x39",
+              "capacity": 15,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000008,
+            "objectName": "QBZ95-1突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000008.png",
+            "baseValue": 46618,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.8x42",
+              "capacity": 30,
+              "fireMode": "单发,全自动",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard_kit",
+                  "slotName": "护木套件",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_chin_supported",
+                  "slotName": "托腮板",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18020000004,
+            "objectName": "UZI冲锋枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 3,
+            "width": 2,
+            "pic": "/images/18020000004.png",
+            "baseValue": 12054,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo9x19",
+              "capacity": 25,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_left_rail",
+                  "slotName": "左导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000031,
+            "objectName": "CAR-15突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000031.png",
+            "baseValue": 12303,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.56x45",
+              "capacity": 20,
+              "fireMode": "全自动,单发",
+              "accessory": [
+                {
+                  "slotID": "slot_lower_rail",
+                  "slotName": "下导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock_kit",
+                  "slotName": "枪托套件",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18010000017,
+            "objectName": "SG552突击步枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18010000017.png",
+            "baseValue": 48449,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo5.56x45",
+              "capacity": 20,
+              "fireMode": "单发,全自动,连发",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine_base",
+                  "slotName": "弹匣座",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18030000004,
+            "objectName": "M870霰弹枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 1,
+            "pic": "/images/18030000004.png",
+            "baseValue": 5000,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo12",
+              "capacity": 6,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18030000005,
+            "objectName": "725双管霰弹枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 1,
+            "pic": "/images/18030000005.png",
+            "baseValue": 40875,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo12",
+              "capacity": 2,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18030000001,
+            "objectName": "M1014霰弹枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18030000001.png",
+            "baseValue": 35108,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo12",
+              "capacity": 7,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_handguard",
+                  "slotName": "护木",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          },
+          {
+            "objectID": 18030000002,
+            "objectName": "S12K霰弹枪",
+            "primaryClass": "gun",
+            "secondClass": "gunRifle",
+            "grade": 0,
+            "length": 5,
+            "width": 2,
+            "pic": "/images/18030000002.png",
+            "baseValue": 42155,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "caliber": "ammo12",
+              "capacity": 5,
+              "fireMode": "单发",
+              "accessory": [
+                {
+                  "slotID": "slot_muzzle",
+                  "slotName": "枪口",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_right_rail",
+                  "slotName": "右导轨",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_barrel",
+                  "slotName": "枪管",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_charge",
+                  "slotName": "拉机柄",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_scope",
+                  "slotName": "瞄准镜",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_side_scope",
+                  "slotName": "侧瞄具",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_stock_pad",
+                  "slotName": "枪托垫",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_pistol_grip_1",
+                  "slotName": "后握把",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_magazine",
+                  "slotName": "弹匣",
+                  "slotType": "weapon"
+                },
+                {
+                  "slotID": "slot_foregrip",
+                  "slotName": "前握把",
+                  "slotType": "proofread"
+                },
+                {
+                  "slotID": "slot_stock",
+                  "slotName": "枪托",
+                  "slotType": "proofread"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

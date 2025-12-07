@@ -13,10 +13,12 @@
     "email": "dfdata@example.com"
   },
   "scripts": {
-    "start": "electron .",
-    "build": "electron-builder",
+    "start": "electron . --no-sandbox",
+    "build": "npm run build:game && electron-builder",
+    "build:web": "cd ../delta-force-loot-simulator && npm run build",
     "build:game": "webpack --config webpack.config.js",
-    "watch:game": "webpack --config webpack.config.js --watch"
+    "watch:game": "webpack --config webpack.config.js --watch",
+    "dev": "npm run build:game && electron . --no-sandbox"
   },
   "keywords": [
     "electron",
@@ -34,8 +36,7 @@
     "webpack-cli": "^6.0.1"
   },
   "dependencies": {
-    "pixi.js": "^7.3.2",
-    "vue": "^3.4.0"
+    "pixi.js": "^8.14.3"
   },
   "build": {
     "appId": "com.dfdata.manager",
@@ -45,6 +46,7 @@
     },
     "files": [
       "**/*",
+      "../delta-force-loot-simulator/dist/**/*",
       "!**/*.map",
       "!**/node_modules/*/{CHANGELOG.md,README.md,README,readme.md,readme}",
       "!**/node_modules/*/{test,__tests__,tests,powered-test,example,examples}",
@@ -56,7 +58,11 @@
       "!**/{.DS_Store,.git,.hg,.svn,CVS,RCS,SCCS,.gitignore,.gitattributes}",
       "!**/{__pycache__,thumbs.db,.flowconfig,.idea,.vs,.nyc_output}",
       "!**/{appveyor.yml,.travis.yml,circle.yml}",
-      "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}"
+      "!**/{npm-debug.log,yarn.lock,.yarn-integrity,.yarn-metadata.json}",
+      "!src/",
+      "!normalized_data/",
+      "!tsconfig.json",
+      "!webpack.config.js"
     ],
     "win": {
       "target": [

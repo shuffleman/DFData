@@ -1,0 +1,602 @@
+{
+  "jData": {
+    "data": {
+      "data": {
+        "list": [
+          {
+            "objectID": 13030000170,
+            "objectName": "天蝎座后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000170.png",
+            "baseValue": 64178,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000129,
+            "objectName": "XK竞技后握",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000129.png",
+            "baseValue": 23671,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000130,
+            "objectName": "沙鹰竞技后握",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000130.png",
+            "baseValue": 5691,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000181,
+            "objectName": "新式侍剑重型握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000181.png",
+            "baseValue": 24047,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000165,
+            "objectName": "MP7稳固后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000165.png",
+            "baseValue": 40878,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000189,
+            "objectName": "兵锋新式握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000189.png",
+            "baseValue": 26942,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000128,
+            "objectName": "XK橡胶套后握",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000128.png",
+            "baseValue": 9303,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000122,
+            "objectName": "稳定AK后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000122.png",
+            "baseValue": 15110,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000132,
+            "objectName": "M9木色稳定后握",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000132.png",
+            "baseValue": 5133,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000112,
+            "objectName": "侵袭后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000112.png",
+            "baseValue": 38588,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000111,
+            "objectName": "幻影后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000111.png",
+            "baseValue": 53335,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000172,
+            "objectName": "G3镂空握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000172.png",
+            "baseValue": 22244,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000168,
+            "objectName": "AK镂空握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000168.png",
+            "baseValue": 28519,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000169,
+            "objectName": "RK3后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000169.png",
+            "baseValue": 22058,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000131,
+            "objectName": "M9黑色均衡后握",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000131.png",
+            "baseValue": 5139,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000180,
+            "objectName": "新式尖兵轻型握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000180.png",
+            "baseValue": 24936,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000187,
+            "objectName": "AR MOE后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000187.png",
+            "baseValue": 25977,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000191,
+            "objectName": "模块化AR后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000191.png",
+            "baseValue": 121496,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000110,
+            "objectName": "M7稳定后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000110.png",
+            "baseValue": 3549,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000127,
+            "objectName": "XK防滑纹后握",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000127.png",
+            "baseValue": 12872,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13330000001,
+            "objectName": "稳固握把底座",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13330000001.png",
+            "baseValue": 19549,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000117,
+            "objectName": "实用AK后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000117.png",
+            "baseValue": 14167,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000133,
+            "objectName": "M9肉色操控后握",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000133.png",
+            "baseValue": 5119,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000171,
+            "objectName": "PSG-1后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000171.png",
+            "baseValue": 14931,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000185,
+            "objectName": "M1911夜鹰战术后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000185.png",
+            "baseValue": 5702,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000164,
+            "objectName": "MP7平衡后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000164.png",
+            "baseValue": 62231,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000106,
+            "objectName": "G3后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000106.png",
+            "baseValue": 25085,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13330000002,
+            "objectName": "平衡握把底座",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13330000002.png",
+            "baseValue": 34675,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000167,
+            "objectName": "AK重塔握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000167.png",
+            "baseValue": 33785,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000166,
+            "objectName": "AR重塔握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000166.png",
+            "baseValue": 24028,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000113,
+            "objectName": "飓风D-1后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000113.png",
+            "baseValue": 13734,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000114,
+            "objectName": "射手D-2后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000114.png",
+            "baseValue": 13740,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000109,
+            "objectName": "416实用后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000109.png",
+            "baseValue": 3540,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000174,
+            "objectName": ".357左轮逐风者后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000174.png",
+            "baseValue": 7390,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000060,
+            "objectName": "左轮狙击后握",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000060.png",
+            "baseValue": 3476,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000121,
+            "objectName": "射手AK后握把",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000121.png",
+            "baseValue": 15163,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13030000184,
+            "objectName": "SVD握把转接",
+            "primaryClass": "acc",
+            "secondClass": "accBackGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13030000184.png",
+            "baseValue": 4945,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

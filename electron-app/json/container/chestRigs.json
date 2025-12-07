@@ -1,0 +1,1002 @@
+{
+  "jData": {
+    "data": {
+      "data": {
+        "list": [
+          {
+            "objectID": 11070005003,
+            "objectName": "黑鹰野战胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 5,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070005003.png",
+            "baseValue": 0,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                3,
+                0,
+                2
+              ],
+              [
+                2,
+                3,
+                1,
+                0
+              ],
+              [
+                2,
+                2,
+                1,
+                3
+              ],
+              [
+                2,
+                1,
+                1,
+                5
+              ],
+              [
+                1,
+                2,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                3,
+                2
+              ]
+            ]
+          },
+          {
+            "objectID": 11070001001,
+            "objectName": "便携胸包",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 1,
+            "length": 1,
+            "width": 2,
+            "pic": "/images/11070001001.png",
+            "baseValue": 1930,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "objectID": 11070001002,
+            "objectName": "快速侦察胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 1,
+            "length": 1,
+            "width": 2,
+            "pic": "/images/11070001002.png",
+            "baseValue": 1930,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "objectID": 11070001004,
+            "objectName": "简易挂载包",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 1,
+            "length": 1,
+            "width": 2,
+            "pic": "/images/11070001004.png",
+            "baseValue": 1970,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "objectID": 11070001003,
+            "objectName": "轻型战术胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 1,
+            "length": 1,
+            "width": 2,
+            "pic": "/images/11070001003.png",
+            "baseValue": 1970,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                2,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "objectID": 11070002001,
+            "objectName": "尼龙挎包",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 2,
+            "length": 1,
+            "width": 2,
+            "pic": "/images/11070002001.png",
+            "baseValue": 3020,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                0,
+                2
+              ],
+              [
+                1,
+                2,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                2,
+                0
+              ],
+              [
+                1,
+                1,
+                2,
+                1
+              ],
+              [
+                1,
+                1,
+                2,
+                2
+              ]
+            ]
+          },
+          {
+            "objectID": 11070002002,
+            "objectName": "HK3便携胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 2,
+            "length": 1,
+            "width": 2,
+            "pic": "/images/11070002002.png",
+            "baseValue": 3450,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                2
+              ],
+              [
+                1,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ],
+              [
+                1,
+                1,
+                2,
+                0
+              ],
+              [
+                1,
+                2,
+                2,
+                1
+              ],
+              [
+                1,
+                2,
+                3,
+                0
+              ],
+              [
+                1,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          {
+            "objectID": 11070002004,
+            "objectName": "通用战术胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 2,
+            "length": 1,
+            "width": 2,
+            "pic": "/images/11070002004.png",
+            "baseValue": 4130,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ],
+              [
+                1,
+                2,
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "objectID": 11070002003,
+            "objectName": "D01轻型胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 2,
+            "length": 1,
+            "width": 2,
+            "pic": "/images/11070002003.png",
+            "baseValue": 3445,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                2,
+                1,
+                0
+              ],
+              [
+                1,
+                2,
+                2,
+                0
+              ],
+              [
+                1,
+                2,
+                3,
+                0
+              ]
+            ]
+          },
+          {
+            "objectID": 11070003001,
+            "objectName": "简易携行弹挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 3,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070003001.png",
+            "baseValue": 5595,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                2,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                3,
+                0
+              ],
+              [
+                1,
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ],
+              [
+                1,
+                2,
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "objectID": 11070003003,
+            "objectName": "DSA战术胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 3,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070003003.png",
+            "baseValue": 7112,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                2,
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                1,
+                2,
+                0
+              ],
+              [
+                1,
+                2,
+                0,
+                1
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ],
+              [
+                1,
+                2,
+                2,
+                1
+              ],
+              [
+                1,
+                2,
+                3,
+                1
+              ]
+            ]
+          },
+          {
+            "objectID": 11070003004,
+            "objectName": "G01战术弹挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 3,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070003004.png",
+            "baseValue": 10157,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                2,
+                0,
+                0
+              ],
+              [
+                3,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                2,
+                4,
+                0
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ],
+              [
+                1,
+                2,
+                2,
+                1
+              ],
+              [
+                1,
+                2,
+                3,
+                1
+              ]
+            ]
+          },
+          {
+            "objectID": 11070003002,
+            "objectName": "HD3战术胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 3,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070003002.png",
+            "baseValue": 6274,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                1,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                1
+              ],
+              [
+                1,
+                1,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                1,
+                0
+              ],
+              [
+                1,
+                2,
+                3,
+                0
+              ],
+              [
+                1,
+                1,
+                3,
+                2
+              ],
+              [
+                1,
+                2,
+                1,
+                1
+              ],
+              [
+                1,
+                2,
+                2,
+                1
+              ]
+            ]
+          },
+          {
+            "objectID": 11070004003,
+            "objectName": "DRC先进侦察胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 4,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070004003.png",
+            "baseValue": 69445,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                2,
+                2,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                2,
+                0
+              ],
+              [
+                1,
+                3,
+                0,
+                2
+              ],
+              [
+                1,
+                3,
+                1,
+                2
+              ],
+              [
+                1,
+                3,
+                2,
+                2
+              ]
+            ]
+          },
+          {
+            "objectID": 11070004002,
+            "objectName": "突击者战术背心",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 4,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070004002.png",
+            "baseValue": 44011,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                3,
+                0,
+                0
+              ],
+              [
+                2,
+                1,
+                1,
+                0
+              ],
+              [
+                2,
+                2,
+                1,
+                1
+              ],
+              [
+                1,
+                3,
+                3,
+                0
+              ],
+              [
+                1,
+                2,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                2,
+                3
+              ]
+            ]
+          },
+          {
+            "objectID": 11070004001,
+            "objectName": "强袭战术背心",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 4,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070004001.png",
+            "baseValue": 21500,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                2,
+                0,
+                0
+              ],
+              [
+                1,
+                1,
+                0,
+                2
+              ],
+              [
+                1,
+                2,
+                1,
+                0
+              ],
+              [
+                1,
+                1,
+                1,
+                2
+              ],
+              [
+                1,
+                2,
+                2,
+                0
+              ],
+              [
+                1,
+                3,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                4,
+                0
+              ]
+            ]
+          },
+          {
+            "objectID": 11070004004,
+            "objectName": "GIR野战胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 4,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070004004.png",
+            "baseValue": 108713,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                2,
+                2,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                2,
+                0
+              ],
+              [
+                1,
+                3,
+                0,
+                2
+              ],
+              [
+                1,
+                3,
+                1,
+                2
+              ],
+              [
+                1,
+                3,
+                2,
+                2
+              ],
+              [
+                1,
+                3,
+                3,
+                2
+              ]
+            ]
+          },
+          {
+            "objectID": 11070005004,
+            "objectName": "DAR突击手胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 5,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070005004.png",
+            "baseValue": 0,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                2,
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                2,
+                0,
+                1
+              ],
+              [
+                2,
+                1,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                2,
+                1
+              ],
+              [
+                2,
+                3,
+                2,
+                3
+              ],
+              [
+                1,
+                3,
+                0,
+                3
+              ],
+              [
+                1,
+                3,
+                1,
+                3
+              ]
+            ]
+          },
+          {
+            "objectID": 11070005001,
+            "objectName": "飓风战术胸挂",
+            "primaryClass": "container",
+            "secondClass": "chest",
+            "grade": 5,
+            "length": 2,
+            "width": 2,
+            "pic": "/images/11070005001.png",
+            "baseValue": 0,
+            "searchTime": 1.2,
+            "subgridLayout": [
+              [
+                1,
+                3,
+                0,
+                0
+              ],
+              [
+                1,
+                2,
+                0,
+                3
+              ],
+              [
+                1,
+                1,
+                0,
+                5
+              ],
+              [
+                2,
+                2,
+                1,
+                0
+              ],
+              [
+                1,
+                3,
+                3,
+                0
+              ],
+              [
+                1,
+                2,
+                3,
+                3
+              ],
+              [
+                1,
+                1,
+                3,
+                5
+              ],
+              [
+                1,
+                3,
+                1,
+                2
+              ],
+              [
+                1,
+                3,
+                2,
+                2
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -7,24 +7,24 @@ let gameWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 1400,
-    height: 900,
-    minWidth: 1200,
-    minHeight: 700,
+    width: 1920,
+    height: 1080,
+    minWidth: 1600,
+    minHeight: 900,
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
       preload: path.join(__dirname, 'preload.js')
     },
-    icon: path.join(__dirname, 'assets', 'icon.png')
+    icon: path.join(__dirname, 'assets', 'icon.png'),
+    backgroundColor: '#1a1a1a'
   });
 
-  mainWindow.loadFile('index.html');
+  // 加载游戏页面
+  mainWindow.loadFile('game.html');
 
   // 开发模式下打开开发者工具
-  if (process.env.NODE_ENV === 'development') {
-    mainWindow.webContents.openDevTools();
-  }
+  mainWindow.webContents.openDevTools();
 
   mainWindow.on('closed', () => {
     mainWindow = null;
@@ -108,6 +108,21 @@ ipcMain.handle('load-local-image', async (event, imagePath) => {
     const mimeType = mimeTypes[ext] || 'image/png';
     return { success: true, data: `data:${mimeType};base64,${base64}` };
   } catch (error) {
+    return { success: false, error: error.message };
+  }
+});
+
+// IPC 处理器 - 加载游戏数据 JSON
+ipcMain.handle('load-game-data', async (event, dataPath) => {
+  try {
+    // 支持绝对路径或相对路径
+    const fullPath = dataPath.startsWith('/')
+      ? path.join(__dirname, dataPath)
+      : path.join(__dirname, dataPath);
+    const data = await fs.readFile(fullPath, 'utf-8');
+    return { success: true, data: JSON.parse(data) };
+  } catch (error) {
+    console.error(`[IPC] 加载数据失败: ${dataPath}`, error);
     return { success: false, error: error.message };
   }
 });
