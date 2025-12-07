@@ -1,0 +1,868 @@
+{
+  "jData": {
+    "data": {
+      "data": {
+        "list": [
+          {
+            "objectID": 13130000183,
+            "objectName": "泰坦消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000183.png",
+            "baseValue": 55279,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 16,
+              "control": -8,
+              "stable": 4,
+              "hipShot": -16
+            }
+          },
+          {
+            "objectID": 13130000216,
+            "objectName": "725双管霰弹枪牛仔消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000216.png",
+            "baseValue": 31046,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 14,
+              "control": -8,
+              "stable": -3,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000187,
+            "objectName": "霰弹枪囚笼补偿器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000187.png",
+            "baseValue": 14593,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 12,
+              "control": -4,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000188,
+            "objectName": "霰弹枪巨炮制退器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000188.png",
+            "baseValue": 20840,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 12,
+              "control": -2,
+              "stable": -2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000160,
+            "objectName": "钛金竞赛制退器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000160.png",
+            "baseValue": 44622,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 12,
+              "control": -3,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000224,
+            "objectName": "FFC双流制退器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000224.png",
+            "baseValue": 66136,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 10,
+              "control": -4,
+              "stable": 3,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000173,
+            "objectName": "PBS俄式消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000173.png",
+            "baseValue": 29862,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 10,
+              "control": -4,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000182,
+            "objectName": "余烬消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000182.png",
+            "baseValue": 53461,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 10,
+              "control": -4,
+              "stable": 4,
+              "hipShot": -8
+            }
+          },
+          {
+            "objectID": 13130000166,
+            "objectName": "泰坦补偿器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000166.png",
+            "baseValue": 30239,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 10,
+              "control": -4,
+              "stable": 0,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13130000201,
+            "objectName": "OPS消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000201.png",
+            "baseValue": 11271,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 10,
+              "control": -8,
+              "stable": -3,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000168,
+            "objectName": "沙暴垂直补偿器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000168.png",
+            "baseValue": 71333,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 9,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000167,
+            "objectName": "堡垒水平补偿器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000167.png",
+            "baseValue": 64672,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 9,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000193,
+            "objectName": "精英手枪制退器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000193.png",
+            "baseValue": 9527,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 9,
+              "control": -3,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000208,
+            "objectName": "先进多口径消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000208.png",
+            "baseValue": 86961,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 9,
+              "control": -6,
+              "stable": 0,
+              "hipShot": -4
+            }
+          },
+          {
+            "objectID": 13130000190,
+            "objectName": "霰弹枪回声消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000190.png",
+            "baseValue": 23802,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 8,
+              "control": -4,
+              "stable": -3,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000169,
+            "objectName": "死寂消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000169.png",
+            "baseValue": 81074,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 8,
+              "control": -13,
+              "stable": -5,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000196,
+            "objectName": "M7实用消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000196.png",
+            "baseValue": 37543,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 8,
+              "control": -4,
+              "stable": 2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000189,
+            "objectName": "霰弹枪涡流收束器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000189.png",
+            "baseValue": 43211,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 7,
+              "control": -7,
+              "stable": null,
+              "hipShot": 8
+            }
+          },
+          {
+            "objectID": 13130000165,
+            "objectName": "海神消焰器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000165.png",
+            "baseValue": 72579,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 7,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000175,
+            "objectName": "AK实用补偿器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000175.png",
+            "baseValue": 10881,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 7,
+              "control": null,
+              "stable": -2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000164,
+            "objectName": "轻语战术消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000164.png",
+            "baseValue": 83893,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 6,
+              "control": -5,
+              "stable": 2,
+              "hipShot": -4
+            }
+          },
+          {
+            "objectID": 13130000177,
+            "objectName": "俄系冲锋枪精密消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000177.png",
+            "baseValue": 28851,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 6,
+              "control": -2,
+              "stable": -3,
+              "hipShot": 8
+            }
+          },
+          {
+            "objectID": 13130000158,
+            "objectName": "钢制膛口制退器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000158.png",
+            "baseValue": 14154,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 6,
+              "control": null,
+              "stable": -1,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000159,
+            "objectName": "炽火抑制器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000159.png",
+            "baseValue": 23953,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 6,
+              "control": -1,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000186,
+            "objectName": "霰弹枪精密消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000186.png",
+            "baseValue": 11935,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 5,
+              "control": -4,
+              "stable": -2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000184,
+            "objectName": "实用霰弹收束器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000184.png",
+            "baseValue": 1411,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 5,
+              "control": -4,
+              "stable": null,
+              "hipShot": 4
+            }
+          },
+          {
+            "objectID": 13130000172,
+            "objectName": "冲锋枪回声消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000172.png",
+            "baseValue": 58561,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 5,
+              "control": -6,
+              "stable": 2,
+              "hipShot": -12
+            }
+          },
+          {
+            "objectID": 13130000211,
+            "objectName": "SR-3M隐击消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000211.png",
+            "baseValue": 84735,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 5,
+              "control": -5,
+              "stable": 2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000209,
+            "objectName": "薪火螺旋消焰器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000209.png",
+            "baseValue": 28454,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": null,
+              "stable": 1,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000174,
+            "objectName": "喇叭口消焰器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000174.png",
+            "baseValue": 5335,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 3,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000192,
+            "objectName": "实用手枪消焰器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000192.png",
+            "baseValue": 4307,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 3,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000176,
+            "objectName": "AK勇火消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000176.png",
+            "baseValue": 30733,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 3,
+              "control": -4,
+              "stable": 3,
+              "hipShot": -8
+            }
+          },
+          {
+            "objectID": 13130000157,
+            "objectName": "实用消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000157.png",
+            "baseValue": 15629,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 2,
+              "control": null,
+              "stable": 2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000155,
+            "objectName": "实用消焰器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000155.png",
+            "baseValue": 3535,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 2,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000178,
+            "objectName": "鸟笼消焰器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000178.png",
+            "baseValue": 5297,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 2,
+              "control": null,
+              "stable": 1,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000180,
+            "objectName": "漩涡消焰器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000180.png",
+            "baseValue": 14369,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 2,
+              "control": -2,
+              "stable": 5,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000195,
+            "objectName": "净化手枪消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000195.png",
+            "baseValue": 8356,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": -4,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000181,
+            "objectName": "共鸣狙击枪消音器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000181.png",
+            "baseValue": 168220,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -9,
+              "stable": -6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13130000202,
+            "objectName": "DTK制退器",
+            "primaryClass": "acc",
+            "secondClass": "accMuzzle",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13130000202.png",
+            "baseValue": 31997,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": null,
+              "stable": null,
+              "hipShot": 12
+            }
+          }
+        ]
+      }
+    }
+  }
+}

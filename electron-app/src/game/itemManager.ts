@@ -113,18 +113,30 @@ export class ItemManager {
     async loadResources() {
         try {
             const cdn = window.game.config.resource_cdn as CDNType;
-            
+
             // 加载物品信息
             const itemLoadPromises = GAME_RESOURCE_CDN[cdn].item_info.map(async (info: ResourceInfo) => {
                 console.log(`[ItemManager] 正在加载: ${info.name} from ${info.url}`);
-                const response = await fetch(info.url, { cache: 'no-store' });
 
-                if (!response.ok) {
-                    console.error(`[ItemManager] 加载失败: ${info.name}, 状态: ${response.status}, URL: ${info.url}`);
-                    throw new Error(`Failed to load ${info.name}: ${response.status}`);
+                // 使用 Electron IPC 加载本地数据
+                let data;
+                if (typeof (window as any).electronAPI !== 'undefined') {
+                    // Electron 环境：使用 IPC
+                    const result = await (window as any).electronAPI.loadGameData(info.url);
+                    if (!result.success) {
+                        console.error(`[ItemManager] 加载失败: ${info.name}, 错误: ${result.error}`);
+                        throw new Error(`Failed to load ${info.name}: ${result.error}`);
+                    }
+                    data = result.data;
+                } else {
+                    // 浏览器环境：使用 fetch
+                    const response = await fetch(info.url, { cache: 'no-store' });
+                    if (!response.ok) {
+                        console.error(`[ItemManager] 加载失败: ${info.name}, 状态: ${response.status}, URL: ${info.url}`);
+                        throw new Error(`Failed to load ${info.name}: ${response.status}`);
+                    }
+                    data = await response.json();
                 }
-
-                const data = await response.json();
 
                 // 处理API格式 vs 本地JSON格式
                 let list;
@@ -157,44 +169,62 @@ export class ItemManager {
 
             // 加载 gunSlotMap
             console.log(`[ItemManager] 正在加载 gunSlotMap from ${GAME_RESOURCE_CDN[cdn].gunSlotMap}`);
-            const gunSlotMapRes = await fetch(GAME_RESOURCE_CDN[cdn].gunSlotMap, { cache: 'no-store' });
-            if (!gunSlotMapRes.ok) {
-                console.error(`[ItemManager] gunSlotMap 加载失败: ${gunSlotMapRes.status}, URL: ${GAME_RESOURCE_CDN[cdn].gunSlotMap}`);
-                throw new Error(`Failed to load gunSlotMap: ${gunSlotMapRes.status}`);
-            }
-            const gunSlotMapResponse = await gunSlotMapRes.json();
-
-            // 加载 data.json（完整数据）
-            console.log(`[ItemManager] 正在加载 data.json from ${GAME_RESOURCE_CDN[cdn].dataJson}`);
-            const dataJsonRes = await fetch(GAME_RESOURCE_CDN[cdn].dataJson, { cache: 'no-store' });
-            console.log(`[ItemManager] data.json fetch 响应:`, {
-                status: dataJsonRes.status,
-                ok: dataJsonRes.ok,
-                statusText: dataJsonRes.statusText,
-                headers: {
-                    contentType: dataJsonRes.headers.get('content-type'),
-                    contentLength: dataJsonRes.headers.get('content-length')
+            let gunSlotMapResponse;
+            if (typeof (window as any).electronAPI !== 'undefined') {
+                // Electron 环境：使用 IPC
+                const result = await (window as any).electronAPI.loadGameData(GAME_RESOURCE_CDN[cdn].gunSlotMap);
+                if (!result.success) {
+                    console.error(`[ItemManager] gunSlotMap 加载失败: ${result.error}`);
+                    throw new Error(`Failed to load gunSlotMap: ${result.error}`);
                 }
-            });
-
-            if (!dataJsonRes.ok) {
-                console.error(`[ItemManager] data.json 加载失败: ${dataJsonRes.status}, URL: ${GAME_RESOURCE_CDN[cdn].dataJson}`);
-                throw new Error(`Failed to load data.json: ${dataJsonRes.status}`);
+                gunSlotMapResponse = result.data;
+            } else {
+                // 浏览器环境：使用 fetch
+                const gunSlotMapRes = await fetch(GAME_RESOURCE_CDN[cdn].gunSlotMap, { cache: 'no-store' });
+                if (!gunSlotMapRes.ok) {
+                    console.error(`[ItemManager] gunSlotMap 加载失败: ${gunSlotMapRes.status}, URL: ${GAME_RESOURCE_CDN[cdn].gunSlotMap}`);
+                    throw new Error(`Failed to load gunSlotMap: ${gunSlotMapRes.status}`);
+                }
+                gunSlotMapResponse = await gunSlotMapRes.json();
             }
 
-            // 读取为文本然后解析为 JSON
-            const dataJsonText = await dataJsonRes.text();
-            console.log(`[ItemManager] data.json 文本长度: ${dataJsonText.length} 字符`);
+            // 加载 data.json（完整数据，可选）
+            let dataJsonResponse = null;
+            if (GAME_RESOURCE_CDN[cdn].dataJson) {
+                try {
+                    console.log(`[ItemManager] 正在加载 data.json from ${GAME_RESOURCE_CDN[cdn].dataJson}`);
+                    if (typeof (window as any).electronAPI !== 'undefined') {
+                        // Electron 环境：使用 IPC
+                        const result = await (window as any).electronAPI.loadGameData(GAME_RESOURCE_CDN[cdn].dataJson);
+                        if (result.success) {
+                            dataJsonResponse = result.data;
+                            console.log('[ItemManager] data.json 加载完成 (Electron)');
+                        } else {
+                            console.warn(`[ItemManager] data.json 加载失败 (可选): ${result.error}`);
+                        }
+                    } else {
+                        // 浏览器环境：使用 fetch
+                        const dataJsonRes = await fetch(GAME_RESOURCE_CDN[cdn].dataJson, { cache: 'no-store' });
+                        if (dataJsonRes.ok) {
+                            const dataJsonText = await dataJsonRes.text();
+                            console.log(`[ItemManager] data.json 文本长度: ${dataJsonText.length} 字符`);
 
-            // 检查是否包含 HTML 标签
-            const htmlTagIndex = dataJsonText.indexOf('<');
-            if (htmlTagIndex !== -1) {
-                console.error(`[ItemManager] data.json 包含 HTML 标签！位置: ${htmlTagIndex}`);
-                console.error(`[ItemManager] 前后文本:`, dataJsonText.substring(Math.max(0, htmlTagIndex - 50), htmlTagIndex + 100));
-                throw new Error(`data.json contains HTML tags at position ${htmlTagIndex}`);
+                            // 检查是否包含 HTML 标签
+                            const htmlTagIndex = dataJsonText.indexOf('<');
+                            if (htmlTagIndex !== -1) {
+                                console.error(`[ItemManager] data.json 包含 HTML 标签！位置: ${htmlTagIndex}`);
+                                throw new Error(`data.json contains HTML tags at position ${htmlTagIndex}`);
+                            }
+
+                            dataJsonResponse = JSON.parse(dataJsonText);
+                        } else {
+                            console.warn(`[ItemManager] data.json 加载失败 (可选): ${dataJsonRes.status}`);
+                        }
+                    }
+                } catch (error) {
+                    console.warn('[ItemManager] data.json 加载失败 (可选):', error);
+                }
             }
-
-            const dataJsonResponse = JSON.parse(dataJsonText);
 
             // 等待所有资源加载完成
             const itemResults = await Promise.all(itemLoadPromises);
@@ -249,8 +279,20 @@ export class ItemManager {
         try {
             // 使用配置中指定的价格数据源
             const valueSource = window.game.config.realtime_value as 'local' | 'api' | 'jsdelivr';
-            const response = await fetch(REALTIME_VALUE[valueSource]);
-            const data = await response.json();
+
+            let data;
+            if (typeof (window as any).electronAPI !== 'undefined') {
+                // Electron 环境：使用 IPC
+                const result = await (window as any).electronAPI.loadGameData(REALTIME_VALUE[valueSource]);
+                if (!result.success) {
+                    throw new Error(`Failed to load values: ${result.error}`);
+                }
+                data = result.data;
+            } else {
+                // 浏览器环境：使用 fetch
+                const response = await fetch(REALTIME_VALUE[valueSource]);
+                data = await response.json();
+            }
 
             const ret: Array<{objectID: number, baseValue: number}> = [];
             // API returns: {success: true, data: {list: [{objectID, objectName, baseValue}, ...]}}
@@ -398,7 +440,7 @@ export class ItemManager {
 
     getRandomItem(probabilities: any) {
         // 首先根据概率选择物品类型
-        const totalProb = Object.values(probabilities).reduce((sum: number, info: any) => sum + info.prob, 0);
+        const totalProb = Object.values(probabilities).reduce((sum: number, info: any) => sum + (info.prob as number), 0) as number;
         let randomValue = Math.random() * totalProb;
         let selectedType = '';
 

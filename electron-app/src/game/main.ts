@@ -1,7 +1,8 @@
 import { Game } from "./game";
 // import { version } from "../package.json";
 
-if (import.meta.env.MODE === "development") {
+// Note: Webpack uses process.env.NODE_ENV instead of import.meta.env
+if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === "development") {
     console.log("Development mode!");
 }
 

@@ -1,0 +1,934 @@
+{
+  "jData": {
+    "data": {
+      "data": {
+        "list": [
+          {
+            "objectID": 13210000013,
+            "objectName": "多用途战术增高架",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13210000013.png",
+            "baseValue": 23335,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -1,
+              "control": 2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13210000012,
+            "objectName": "微型瞄具增高架",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13210000012.png",
+            "baseValue": 23010,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -1,
+              "control": 2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000096,
+            "objectName": "Marlin守望者狙击镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000096.png",
+            "baseValue": 5911,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000099,
+            "objectName": "1p33 2/4倍瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000099.png",
+            "baseValue": 46703,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -6,
+              "stable": 4,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000057,
+            "objectName": "3/7可调倍率狙击镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000057.png",
+            "baseValue": 91209,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": 6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000072,
+            "objectName": "1p-29俄制3倍瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000072.png",
+            "baseValue": 23145,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -4,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000079,
+            "objectName": "侧置战斗红点瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000079.png",
+            "baseValue": 26551,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000085,
+            "objectName": "AP5000反射式瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000085.png",
+            "baseValue": 5668,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000042,
+            "objectName": "俄式准直二倍瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000042.png",
+            "baseValue": 11125,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000070,
+            "objectName": "6/12神射手变倍狙击镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000070.png",
+            "baseValue": 51309,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": 6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000043,
+            "objectName": "全景红点瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000043.png",
+            "baseValue": 29294,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000078,
+            "objectName": "侧置微型红点瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000078.png",
+            "baseValue": 26500,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000063,
+            "objectName": "战斗红点瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000063.png",
+            "baseValue": 21054,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000065,
+            "objectName": "全息二型瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000065.png",
+            "baseValue": 5652,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000069,
+            "objectName": "LPVO多倍率战斗瞄具",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000069.png",
+            "baseValue": 50519,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -6,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000081,
+            "objectName": "PSO狙击8倍瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000081.png",
+            "baseValue": 11996,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": 2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000061,
+            "objectName": "okp-7反射瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000061.png",
+            "baseValue": 8742,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000040,
+            "objectName": "全息瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000040.png",
+            "baseValue": 5664,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000046,
+            "objectName": "反射式瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000046.png",
+            "baseValue": 5665,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000049,
+            "objectName": "PSO战斗2.5倍瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000049.png",
+            "baseValue": 17097,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -6,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000051,
+            "objectName": "HAMR组合瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000051.png",
+            "baseValue": 40418,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -6,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000052,
+            "objectName": "侦察1.5/5可调瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000052.png",
+            "baseValue": 71441,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": 6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000053,
+            "objectName": "XCOG突击3.5倍瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000053.png",
+            "baseValue": 60061,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -4,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000062,
+            "objectName": "微型红点瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000062.png",
+            "baseValue": 20022,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000064,
+            "objectName": "Cobra准直式瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000064.png",
+            "baseValue": 16918,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000076,
+            "objectName": "侧置全景红点瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000076.png",
+            "baseValue": 28789,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000077,
+            "objectName": "侧置XRO快速反应瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000077.png",
+            "baseValue": 26479,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000044,
+            "objectName": "XRO快速反应瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000044.png",
+            "baseValue": 19493,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000056,
+            "objectName": "光学狙击8倍瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000056.png",
+            "baseValue": 39253,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": 6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000073,
+            "objectName": "视点3倍瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000073.png",
+            "baseValue": 65715,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -4,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000087,
+            "objectName": "Osight微型瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000087.png",
+            "baseValue": 25687,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000088,
+            "objectName": "侧置Osight微型瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000088.png",
+            "baseValue": 31381,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000089,
+            "objectName": "ACOG精准六倍镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000089.png",
+            "baseValue": 43593,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000090,
+            "objectName": "M3狙击镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000090.png",
+            "baseValue": 84787,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": 6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000082,
+            "objectName": "M157火控光学系统",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000082.png",
+            "baseValue": 71789,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -6,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000091,
+            "objectName": "灵眼3/7弹道计算狙击镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000091.png",
+            "baseValue": 91332,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": 6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000092,
+            "objectName": "灵眼6/12弹道计算狙击镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000092.png",
+            "baseValue": 91552,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": 6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000066,
+            "objectName": "先进热融合全息瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 6,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000066.png",
+            "baseValue": 60782,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": -2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000067,
+            "objectName": "先进白热成像战斗瞄准镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 6,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000067.png",
+            "baseValue": 139033,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": -2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000068,
+            "objectName": "八倍先进热成像狙击镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 6,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13110000068.png",
+            "baseValue": 200615,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -8,
+              "stable": -2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000093,
+            "objectName": "棱镜通用二倍光学瞄具",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000093.png",
+            "baseValue": 60478,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -4,
+              "stable": 3,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13110000095,
+            "objectName": "复合弓智能倍镜",
+            "primaryClass": "acc",
+            "secondClass": "accScope",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13110000095.png",
+            "baseValue": 17403,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": null,
+              "stable": 4,
+              "hipShot": -8
+            }
+          }
+        ]
+      }
+    }
+  }
+}

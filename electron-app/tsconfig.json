@@ -16,12 +16,7 @@
     "declarationMap": true,
     "baseUrl": "./src/game",
     "paths": {
-      "@core/*": ["core/*"],
-      "@components/*": ["components/*"],
-      "@types": ["types"],
-      "@types/*": ["types/*"],
-      "@entities/*": ["entities/*"],
-      "@managers/*": ["managers/*"]
+      "@components/*": ["components/*"]
     }
   },
   "include": [

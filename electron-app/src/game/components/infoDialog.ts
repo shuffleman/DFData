@@ -1,4 +1,4 @@
-import { version } from "../../package.json";
+import { version } from "../../../package.json";
 import * as PIXI from 'pixi.js';
 
 export class InfoDialog {

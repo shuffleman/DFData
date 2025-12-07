@@ -106,7 +106,9 @@ export class Game {
         }
 
         /** Debuging */
-        if (import.meta.env.MODE === "development") {
+        // Note: Webpack uses process.env.NODE_ENV instead of import.meta.env
+        const isDevelopment = typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 'development';
+        if (isDevelopment) {
             this.config.needSearch = true; // 开发模式下也启用搜索
             // 使用本地数据源（从 data.json 转换而来）
             this.config.resource_cdn = 'local';
