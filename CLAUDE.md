@@ -1,6 +1,6 @@
 # CLAUDE.md - AI Assistant Guide for DFData Repository
 
-> Last Updated: 2025-12-06
+> Last Updated: 2025-12-07
 > Repository: DFData - Game Equipment Data Management System
 
 ## Table of Contents
@@ -39,6 +39,10 @@
 
 ```
 DFData/
+├── .github/                   # GitHub configuration
+│   └── workflows/             # GitHub Actions CI/CD workflows
+│       ├── build-release.yml  # Automated build and release workflow
+│       └── README.md          # CI/CD documentation
 ├── electron-app/              # Main Electron desktop application
 │   ├── src/
 │   │   ├── game/              # Game logic (PixiJS-based)
@@ -51,6 +55,8 @@ DFData/
 │   │   │   ├── Game.ts        # Main game class
 │   │   │   └── main.ts        # Entry point
 │   │   └── app.js             # Electron renderer process
+│   ├── assets/                # Application assets
+│   │   └── README.md          # Icon requirements documentation
 │   ├── normalized_data/       # Copy of normalized data
 │   ├── main.js                # Electron main process
 │   ├── preload.js             # Electron preload script
@@ -78,7 +84,9 @@ DFData/
 
 ### Directory Purposes
 
+- **.github/**: GitHub Actions CI/CD workflows and automation
 - **electron-app/**: Production-ready desktop application for data management
+  - **assets/**: Application icons and resources for packaging
 - **loot-game/**: Experimental/testing game environment
 - **normalized_data/**: Single source of truth for all game item data
 - **Root level**: Data processing scripts and configuration
@@ -535,6 +543,44 @@ npm run build
 
 - Standard Electron packaging should work
 - May need to adjust `package.json` build targets
+
+### CI/CD Automation
+
+The project includes GitHub Actions workflows for automated building and releasing.
+
+#### Workflow: build-release.yml
+
+**Location**: `.github/workflows/build-release.yml`
+
+**Triggers**:
+- Push version tags (e.g., `v1.0.0`)
+- Push to `main`/`master` branches
+- Pull requests to `main`/`master`
+- Manual dispatch
+
+**Build Matrix**:
+- **Windows**: NSIS installer + ZIP
+- **macOS**: DMG + ZIP
+- **Linux**: AppImage + DEB + RPM
+
+**Quick Release**:
+```bash
+# Create and push a version tag
+git tag v1.0.0
+git push origin v1.0.0
+
+# Workflow will:
+# 1. Build on all platforms
+# 2. Create GitHub Release
+# 3. Upload installers
+```
+
+**Documentation**: See `.github/workflows/README.md` for detailed usage
+
+**Requirements**:
+- Application icons in `electron-app/assets/` (see `electron-app/assets/README.md`)
+- Proper version in `package.json`
+- GitHub repo permissions for creating releases
 
 ---
 
