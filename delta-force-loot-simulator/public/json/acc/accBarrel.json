@@ -1,0 +1,2154 @@
+{
+  "jData": {
+    "data": {
+      "data": {
+        "list": [
+          {
+            "objectID": 13020000173,
+            "objectName": "AR特勤一体消音组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000173.png",
+            "baseValue": 74014,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000533,
+            "objectName": "QCQ171新式渗透一体消音枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000533.png",
+            "baseValue": 51019,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000378,
+            "objectName": "ASh-12 歼灭高精长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000378.png",
+            "baseValue": 69557,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000561,
+            "objectName": "AS Val刺客高级枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000561.png",
+            "baseValue": 117581,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000453,
+            "objectName": "M1014断点枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000453.png",
+            "baseValue": 29899,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000366,
+            "objectName": "AUG晨零一体消音管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000366.png",
+            "baseValue": 38474,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000512,
+            "objectName": "G3平台神射枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000512.png",
+            "baseValue": 64047,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000546,
+            "objectName": "K437特攻一体消音枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000546.png",
+            "baseValue": 53152,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000554,
+            "objectName": "KC17影舞者消音",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000554.png",
+            "baseValue": 58955,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000556,
+            "objectName": "Marlin猎鹿人枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000556.png",
+            "baseValue": 23031,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000450,
+            "objectName": "S12K实用长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000450.png",
+            "baseValue": 17196,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000410,
+            "objectName": "VSS海啸长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000410.png",
+            "baseValue": 103782,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000448,
+            "objectName": "S12K实用短枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000448.png",
+            "baseValue": 18297,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000559,
+            "objectName": "MK47余烬枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000559.png",
+            "baseValue": 181751,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000373,
+            "objectName": "QBZ95-1长弓枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000373.png",
+            "baseValue": 22319,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000403,
+            "objectName": "SVD黑刺超长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000403.png",
+            "baseValue": 33445,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000439,
+            "objectName": "野牛刀锋超长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000439.png",
+            "baseValue": 18988,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000456,
+            "objectName": "G18冲击长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000456.png",
+            "baseValue": 28053,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000421,
+            "objectName": "Vector长剑超长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000421.png",
+            "baseValue": 56885,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000472,
+            "objectName": "P90重攻长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000472.png",
+            "baseValue": 72173,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000230,
+            "objectName": "SV98升华超长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 3,
+            "width": 1,
+            "pic": "/images/13020000230.png",
+            "baseValue": 73422,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000441,
+            "objectName": "AWM天际线长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000441.png",
+            "baseValue": 65827,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000488,
+            "objectName": "R93裂变长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000488.png",
+            "baseValue": 61806,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000349,
+            "objectName": "AR加百列长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000349.png",
+            "baseValue": 39943,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000416,
+            "objectName": "PKM地平线重枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000416.png",
+            "baseValue": 65527,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000485,
+            "objectName": ".357左轮逐风者长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000485.png",
+            "baseValue": 17731,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000486,
+            "objectName": "G3加强长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000486.png",
+            "baseValue": 27981,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000489,
+            "objectName": "Mini-14增强枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000489.png",
+            "baseValue": 31808,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000367,
+            "objectName": "AUG精英脚架长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000367.png",
+            "baseValue": 46251,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000370,
+            "objectName": "AK12精英脚架长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000370.png",
+            "baseValue": 39663,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000424,
+            "objectName": "SMG长弩超长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000424.png",
+            "baseValue": 63343,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000444,
+            "objectName": "M700平流层长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000444.png",
+            "baseValue": 102723,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000239,
+            "objectName": "M249犀牛长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000239.png",
+            "baseValue": 48972,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000388,
+            "objectName": "M14洞察超长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000388.png",
+            "baseValue": 195080,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000432,
+            "objectName": "UZI竞赛性能长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000432.png",
+            "baseValue": 31092,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000493,
+            "objectName": "K416A8长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000493.png",
+            "baseValue": 57068,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000381,
+            "objectName": "M7实用长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000381.png",
+            "baseValue": 58539,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000390,
+            "objectName": "SCARH海狸长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000390.png",
+            "baseValue": 43499,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000407,
+            "objectName": "SKS瞬息超长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000407.png",
+            "baseValue": 84514,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000461,
+            "objectName": "沙鹰膛线长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000461.png",
+            "baseValue": 8903,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000467,
+            "objectName": "93R远射超长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000467.png",
+            "baseValue": 8668,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000491,
+            "objectName": "AKM海狸长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000491.png",
+            "baseValue": 16547,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000498,
+            "objectName": "MP7蜂刺长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000498.png",
+            "baseValue": 26761,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000507,
+            "objectName": "勇士海狸枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000507.png",
+            "baseValue": 33798,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000514,
+            "objectName": "新式蛟龙战术长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000514.png",
+            "baseValue": 61424,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000477,
+            "objectName": "G17战术重枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000477.png",
+            "baseValue": 7006,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000524,
+            "objectName": "M250钛金长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000524.png",
+            "baseValue": 58847,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000530,
+            "objectName": "QJB201新式重锤战术枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000530.png",
+            "baseValue": 42352,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000532,
+            "objectName": "QCQ171新式红缨战术长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000532.png",
+            "baseValue": 39782,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000543,
+            "objectName": "K437长矛手长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000543.png",
+            "baseValue": 60632,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000550,
+            "objectName": "725双管霰弹枪鹰隼长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000550.png",
+            "baseValue": 37483,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000552,
+            "objectName": "KC17长剑枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000552.png",
+            "baseValue": 69030,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000557,
+            "objectName": "Marlin拓荒者枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000557.png",
+            "baseValue": 62170,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000560,
+            "objectName": "MK47鏖战枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000560.png",
+            "baseValue": 196011,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000357,
+            "objectName": "AKM实用长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000357.png",
+            "baseValue": 13116,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000420,
+            "objectName": "Vector堡垒重枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000420.png",
+            "baseValue": 46455,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000449,
+            "objectName": "S12K防御者短枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000449.png",
+            "baseValue": 26386,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000451,
+            "objectName": "S12K破阵长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000451.png",
+            "baseValue": 36042,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000402,
+            "objectName": "svd实用长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000402.png",
+            "baseValue": 15223,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000464,
+            "objectName": "93R实用长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000464.png",
+            "baseValue": 3893,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000167,
+            "objectName": ".357口径左轮长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000167.png",
+            "baseValue": 4267,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000347,
+            "objectName": "AR碳纤维枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000347.png",
+            "baseValue": 14084,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000474,
+            "objectName": "MP5SD特勤一体消音枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000474.png",
+            "baseValue": 42884,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000541,
+            "objectName": "K437断刃短枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000541.png",
+            "baseValue": 51683,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000553,
+            "objectName": "KC17短刃枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000553.png",
+            "baseValue": 43637,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000358,
+            "objectName": "AKM超然长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000358.png",
+            "baseValue": 37021,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000438,
+            "objectName": "野牛打击者标准枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000438.png",
+            "baseValue": 14112,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000492,
+            "objectName": "K416A8枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000492.png",
+            "baseValue": 28508,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000350,
+            "objectName": "AR战壕标准枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000350.png",
+            "baseValue": 48753,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000434,
+            "objectName": "UZI军需长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000434.png",
+            "baseValue": 22233,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000320,
+            "objectName": "SG552骑士重枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000320.png",
+            "baseValue": 26504,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000430,
+            "objectName": "MP5斥候长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000430.png",
+            "baseValue": 28195,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000394,
+            "objectName": "G3守卫标准枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000394.png",
+            "baseValue": 23031,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000386,
+            "objectName": "M14漫游标准枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000386.png",
+            "baseValue": 105530,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000518,
+            "objectName": "M7灵蜥短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000518.png",
+            "baseValue": 23153,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000519,
+            "objectName": "M1911夜鹰战术枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000519.png",
+            "baseValue": 8573,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000522,
+            "objectName": "SR-3M铸钢战术枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000522.png",
+            "baseValue": 93363,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000523,
+            "objectName": "SMG45裂变长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000523.png",
+            "baseValue": 51450,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000528,
+            "objectName": "QSZ92G响尾蛇战术枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 1,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000528.png",
+            "baseValue": 4531,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000369,
+            "objectName": "AK12前线长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000369.png",
+            "baseValue": 33254,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000365,
+            "objectName": "AUG尖兵标准枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000365.png",
+            "baseValue": 50064,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000483,
+            "objectName": "G3飓风短枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000483.png",
+            "baseValue": 24681,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000311,
+            "objectName": "M249海湾短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000311.png",
+            "baseValue": 51330,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000362,
+            "objectName": "K416特勤短枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000362.png",
+            "baseValue": 26723,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000379,
+            "objectName": "ASh-12 CQB短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000379.png",
+            "baseValue": 35591,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000425,
+            "objectName": "SMG45竹鼠短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000425.png",
+            "baseValue": 61401,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000387,
+            "objectName": "M14轻语短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000387.png",
+            "baseValue": 71111,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000396,
+            "objectName": "SR25新星超长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000396.png",
+            "baseValue": 158856,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000433,
+            "objectName": "UZI突击标准枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000433.png",
+            "baseValue": 29944,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000462,
+            "objectName": "沙鹰竞技枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000462.png",
+            "baseValue": 8884,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000490,
+            "objectName": "AKM海狸枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000490.png",
+            "baseValue": 37027,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000414,
+            "objectName": "PKM壕战短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000414.png",
+            "baseValue": 88595,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000484,
+            "objectName": ".357左轮逐风者枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000484.png",
+            "baseValue": 15364,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000364,
+            "objectName": "AUG实用集成三倍镜枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000364.png",
+            "baseValue": 37312,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000392,
+            "objectName": "SCARH零式短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000392.png",
+            "baseValue": 17899,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000437,
+            "objectName": "野牛伞兵短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000437.png",
+            "baseValue": 20227,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000473,
+            "objectName": "P90猎豹重枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000473.png",
+            "baseValue": 42319,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000351,
+            "objectName": "AR特攻短枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000351.png",
+            "baseValue": 39623,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000406,
+            "objectName": "SKS截断标准枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000406.png",
+            "baseValue": 54309,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000429,
+            "objectName": "MP5隐蔽短枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000429.png",
+            "baseValue": 54681,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000500,
+            "objectName": "MP7狼牙轻枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000500.png",
+            "baseValue": 63900,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000506,
+            "objectName": "勇士战术枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000506.png",
+            "baseValue": 33785,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000508,
+            "objectName": "93R战术枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000508.png",
+            "baseValue": 7418,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000513,
+            "objectName": "新式雪豹短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000513.png",
+            "baseValue": 30704,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000520,
+            "objectName": "M250侍卫短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000520.png",
+            "baseValue": 26693,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000476,
+            "objectName": "G17轻量化枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000476.png",
+            "baseValue": 4852,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000529,
+            "objectName": "QJB201新式獠牙短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000529.png",
+            "baseValue": 37195,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000531,
+            "objectName": "QCQ171新式狡免短枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000531.png",
+            "baseValue": 25630,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000465,
+            "objectName": "93R实用重枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000465.png",
+            "baseValue": 3907,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000419,
+            "objectName": "Vector导轨枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000419.png",
+            "baseValue": 30413,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000423,
+            "objectName": "SMG45实用重枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000423.png",
+            "baseValue": 16714,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000459,
+            "objectName": "左轮实用长管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000459.png",
+            "baseValue": 3478,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000360,
+            "objectName": "K416精英重枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000360.png",
+            "baseValue": 24440,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000391,
+            "objectName": "SCARH实用标准枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000391.png",
+            "baseValue": 16821,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000499,
+            "objectName": "MP7增强枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000499.png",
+            "baseValue": 30416,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000505,
+            "objectName": "QBZ95战术枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000505.png",
+            "baseValue": 11277,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000372,
+            "objectName": "QBZ95-1实用短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000372.png",
+            "baseValue": 10904,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000428,
+            "objectName": "MP5战术枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000428.png",
+            "baseValue": 36013,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000458,
+            "objectName": "左轮实用短管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000458.png",
+            "baseValue": 3180,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000356,
+            "objectName": "AKM实用标准枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000356.png",
+            "baseValue": 16772,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000348,
+            "objectName": "AR标准枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000348.png",
+            "baseValue": 6439,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000427,
+            "objectName": "MP5性能枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000427.png",
+            "baseValue": 22679,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000231,
+            "objectName": "SV98龙萤轻枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 3,
+            "width": 1,
+            "pic": "/images/13020000231.png",
+            "baseValue": 89683,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000466,
+            "objectName": "93R实用轻枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000466.png",
+            "baseValue": 3891,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000355,
+            "objectName": "AKM性能枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000355.png",
+            "baseValue": 45400,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000515,
+            "objectName": "M700猎食军规枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000515.png",
+            "baseValue": 71590,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000397,
+            "objectName": "SR25追风长枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000397.png",
+            "baseValue": 94854,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000383,
+            "objectName": "M7堤风超长枪管组合",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000383.png",
+            "baseValue": 228672,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000398,
+            "objectName": "SR25瞬息短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000398.png",
+            "baseValue": 83811,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000539,
+            "objectName": "725双管霰弹枪拦截者截短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000539.png",
+            "baseValue": 28116,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000291,
+            "objectName": "SV98灵巧短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 3,
+            "width": 1,
+            "pic": "/images/13020000291.png",
+            "baseValue": 94482,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000487,
+            "objectName": "R93轻盈短枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000487.png",
+            "baseValue": 60156,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000443,
+            "objectName": "M700一体消音管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000443.png",
+            "baseValue": 71459,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13020000494,
+            "objectName": "M870扩容枪管",
+            "primaryClass": "acc",
+            "secondClass": "accBarrel",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13020000494.png",
+            "baseValue": 3861,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}
