@@ -1,0 +1,1594 @@
+{
+  "jData": {
+    "data": {
+      "data": {
+        "list": [
+          {
+            "objectID": 13030000125,
+            "objectName": "VSS精英一体枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13030000125.png",
+            "baseValue": 103065,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 20,
+              "control": -6,
+              "stable": 6,
+              "hipShot": -16
+            }
+          },
+          {
+            "objectID": 13040000202,
+            "objectName": "725双管霰弹枪守望者枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000202.png",
+            "baseValue": 18012,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 16,
+              "control": -6,
+              "stable": 6,
+              "hipShot": -8
+            }
+          },
+          {
+            "objectID": 13040000132,
+            "objectName": "1014伸缩托（展开）",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000132.png",
+            "baseValue": 99353,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 15,
+              "control": null,
+              "stable": null,
+              "hipShot": 4
+            }
+          },
+          {
+            "objectID": 13040000122,
+            "objectName": "ASh-12狙击枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000122.png",
+            "baseValue": 114388,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 12,
+              "control": 4,
+              "stable": 4,
+              "hipShot": -16
+            }
+          },
+          {
+            "objectID": 13040000123,
+            "objectName": "Vector共振一体式枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000123.png",
+            "baseValue": 103086,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 12,
+              "control": 6,
+              "stable": -5,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13030000115,
+            "objectName": "禁区一体枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13030000115.png",
+            "baseValue": 36006,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 11,
+              "control": -6,
+              "stable": 7,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000118,
+            "objectName": "PT1特种枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000118.png",
+            "baseValue": 64240,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 8,
+              "control": 4,
+              "stable": -4,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000110,
+            "objectName": "UR特种战术枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000110.png",
+            "baseValue": 71335,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 8,
+              "control": -4,
+              "stable": 4,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000134,
+            "objectName": "1014固定枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000134.png",
+            "baseValue": 20788,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 8,
+              "control": 4,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13240000002,
+            "objectName": "P90枪托垫",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13240000002.png",
+            "baseValue": 52160,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 8,
+              "control": 4,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000219,
+            "objectName": "KC17先进战斗枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000219.png",
+            "baseValue": 22317,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 8,
+              "control": -7,
+              "stable": 6,
+              "hipShot": 4
+            }
+          },
+          {
+            "objectID": 13040000007,
+            "objectName": "影袭导轨枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000007.png",
+            "baseValue": 69723,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 7,
+              "control": 7,
+              "stable": -6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13030000178,
+            "objectName": "共振二代一体枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13030000178.png",
+            "baseValue": 79301,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 7,
+              "control": 10,
+              "stable": -6,
+              "hipShot": 4
+            }
+          },
+          {
+            "objectID": 13040000112,
+            "objectName": "416轻型枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000112.png",
+            "baseValue": 31814,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 6,
+              "control": 6,
+              "stable": -6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000107,
+            "objectName": "枢机稳固枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000107.png",
+            "baseValue": 34522,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 6,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000108,
+            "objectName": "侵掠核心枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000108.png",
+            "baseValue": 34132,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 6,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000182,
+            "objectName": "AK19枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000182.png",
+            "baseValue": 18187,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 6,
+              "control": 4,
+              "stable": -2,
+              "hipShot": -8
+            }
+          },
+          {
+            "objectID": 13040000133,
+            "objectName": "1014伸缩托（折叠）",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000133.png",
+            "baseValue": 31842,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 5,
+              "control": 8,
+              "stable": null,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000139,
+            "objectName": "PKM泽宁特枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000139.png",
+            "baseValue": 38349,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 5,
+              "control": 2,
+              "stable": 3,
+              "hipShot": -8
+            }
+          },
+          {
+            "objectID": 13040000114,
+            "objectName": "M16A4稳定枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000114.png",
+            "baseValue": 21468,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 5,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000176,
+            "objectName": "M14EBR枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000176.png",
+            "baseValue": 63986,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 5,
+              "control": 4,
+              "stable": 3,
+              "hipShot": -8
+            }
+          },
+          {
+            "objectID": 13040000189,
+            "objectName": "G3稳定枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000189.png",
+            "baseValue": 15303,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 5,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000205,
+            "objectName": "Marlin骨架枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000205.png",
+            "baseValue": 25560,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": 8,
+              "stable": -2,
+              "hipShot": -8
+            }
+          },
+          {
+            "objectID": 13040000209,
+            "objectName": "Marlin战锤战术枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000209.png",
+            "baseValue": 24893,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": -2,
+              "stable": 4,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000167,
+            "objectName": "枢机先进战斗枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000167.png",
+            "baseValue": 43453,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": 1,
+              "stable": 1,
+              "hipShot": 8
+            }
+          },
+          {
+            "objectID": 13040000113,
+            "objectName": "416稳固枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000113.png",
+            "baseValue": 39359,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": -6,
+              "stable": 8,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000135,
+            "objectName": "S12K撞火枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000135.png",
+            "baseValue": 45169,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": 4,
+              "stable": null,
+              "hipShot": 16
+            }
+          },
+          {
+            "objectID": 13040000137,
+            "objectName": "M249精英骨架枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000137.png",
+            "baseValue": 15827,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": 9,
+              "stable": -6,
+              "hipShot": 8
+            }
+          },
+          {
+            "objectID": 13040000111,
+            "objectName": "416-C伸缩枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000111.png",
+            "baseValue": 24956,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": 8,
+              "stable": -6,
+              "hipShot": 8
+            }
+          },
+          {
+            "objectID": 13240000005,
+            "objectName": "AUG枪托垫",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13240000005.png",
+            "baseValue": 51539,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": 4,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000105,
+            "objectName": "实用战术枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000105.png",
+            "baseValue": 11970,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 4,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13290000003,
+            "objectName": "QBZ托腮板",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13290000003.png",
+            "baseValue": 24137,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 3,
+              "control": 3,
+              "stable": 3,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000129,
+            "objectName": "MP5K折叠枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000129.png",
+            "baseValue": 15911,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 3,
+              "control": null,
+              "stable": 2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000109,
+            "objectName": "精英轻型枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000109.png",
+            "baseValue": 20551,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 3,
+              "control": 3,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000121,
+            "objectName": "ASh-12骨架枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000121.png",
+            "baseValue": 100174,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 3,
+              "control": 6,
+              "stable": 4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13240000006,
+            "objectName": "AK枪托缓冲垫",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13240000006.png",
+            "baseValue": 2279,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 3,
+              "control": -3,
+              "stable": 1,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000181,
+            "objectName": "PT3死士枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000181.png",
+            "baseValue": 48255,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 3,
+              "control": 3,
+              "stable": 3,
+              "hipShot": -4
+            }
+          },
+          {
+            "objectID": 13040000206,
+            "objectName": "Marlin稳固狙击枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000206.png",
+            "baseValue": 15562,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 2,
+              "control": -2,
+              "stable": 6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000104,
+            "objectName": "实用稳定枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000104.png",
+            "baseValue": 3543,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 2,
+              "control": null,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000130,
+            "objectName": "UZI枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000130.png",
+            "baseValue": 4143,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 2,
+              "control": 4,
+              "stable": -2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000009,
+            "objectName": "核心导轨枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000009.png",
+            "baseValue": 14181,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 2,
+              "control": 2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000184,
+            "objectName": "影袭托芯枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000184.png",
+            "baseValue": 71198,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 2,
+              "control": 10,
+              "stable": -6,
+              "hipShot": 8
+            }
+          },
+          {
+            "objectID": 13040000116,
+            "objectName": "AK聚合物枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000116.png",
+            "baseValue": 3543,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 1,
+              "control": null,
+              "stable": 1,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000128,
+            "objectName": "G3伸缩枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000128.png",
+            "baseValue": 3551,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 1,
+              "control": 3,
+              "stable": -2,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13290000001,
+            "objectName": "通用托腮板",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13290000001.png",
+            "baseValue": 15630,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": 1,
+              "control": null,
+              "stable": 3,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000119,
+            "objectName": "AK骨架枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000119.png",
+            "baseValue": 3523,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -3,
+              "control": 8,
+              "stable": -3,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000185,
+            "objectName": "骨架狙击枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000185.png",
+            "baseValue": 39053,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -4,
+              "control": 8,
+              "stable": 6,
+              "hipShot": -16
+            }
+          },
+          {
+            "objectID": 13040000201,
+            "objectName": "725双管霰弹枪州长短枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000201.png",
+            "baseValue": 18012,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -4,
+              "control": 10,
+              "stable": -4,
+              "hipShot": 16
+            }
+          },
+          {
+            "objectID": 13040000092,
+            "objectName": "SMG45枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000092.png",
+            "baseValue": 3628,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000127,
+            "objectName": "MP5尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000127.png",
+            "baseValue": 3625,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000179,
+            "objectName": "M4缓冲托芯",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000179.png",
+            "baseValue": 5639,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000138,
+            "objectName": "M249尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000138.png",
+            "baseValue": 5667,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000091,
+            "objectName": "SG552枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000091.png",
+            "baseValue": 3650,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000172,
+            "objectName": "AK枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000172.png",
+            "baseValue": 1784,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000173,
+            "objectName": "Vector枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000173.png",
+            "baseValue": 7835,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000193,
+            "objectName": "SCAR-H枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000193.png",
+            "baseValue": 5664,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000194,
+            "objectName": "AS Val枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000194.png",
+            "baseValue": 7869,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000195,
+            "objectName": "SR-3M枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000195.png",
+            "baseValue": 5664,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000196,
+            "objectName": "MP7枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000196.png",
+            "baseValue": 7863,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000197,
+            "objectName": "UZI枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000197.png",
+            "baseValue": 1784,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000198,
+            "objectName": "PKM枪托尾盖",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13040000198.png",
+            "baseValue": 5664,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": -10,
+              "control": 12,
+              "stable": -4,
+              "hipShot": 12
+            }
+          },
+          {
+            "objectID": 13040000207,
+            "objectName": "Marlin无托后握把",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000207.png",
+            "baseValue": 14228,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -2,
+              "stable": -2,
+              "hipShot": 32
+            }
+          },
+          {
+            "objectID": 13040000208,
+            "objectName": "Marlin运动枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000208.png",
+            "baseValue": 23230,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": 3,
+              "stable": null,
+              "hipShot": 16
+            }
+          },
+          {
+            "objectID": 13030000124,
+            "objectName": "svd聚合物一体枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13030000124.png",
+            "baseValue": 30242,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": -4,
+              "stable": 8,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000117,
+            "objectName": "AK折叠枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000117.png",
+            "baseValue": 14726,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": 5,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000106,
+            "objectName": "实用轻型枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000106.png",
+            "baseValue": 3521,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": 2,
+              "stable": null,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000006,
+            "objectName": "闪电导轨枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000006.png",
+            "baseValue": 33685,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": 12,
+              "stable": -6,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000178,
+            "objectName": ".357左轮逐风者枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000178.png",
+            "baseValue": 6862,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": null,
+              "stable": 8,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13290000002,
+            "objectName": "M700托腮板",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13290000002.png",
+            "baseValue": 13130,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": 1,
+              "stable": 3,
+              "hipShot": null
+            }
+          },
+          {
+            "objectID": 13040000183,
+            "objectName": "MRGS镂空枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 4,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000183.png",
+            "baseValue": 60339,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": 4,
+              "stable": 6,
+              "hipShot": -8
+            }
+          },
+          {
+            "objectID": 13040000190,
+            "objectName": "MP5伸缩枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 2,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000190.png",
+            "baseValue": 16558,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": 2,
+              "stable": null,
+              "hipShot": 8
+            }
+          },
+          {
+            "objectID": 13040000100,
+            "objectName": "G3枪托",
+            "primaryClass": "acc",
+            "secondClass": "accStock",
+            "grade": 3,
+            "length": 2,
+            "width": 1,
+            "pic": "/images/13040000100.png",
+            "baseValue": 14500,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            },
+            "stats": {
+              "recoil": null,
+              "control": 2,
+              "stable": 2,
+              "hipShot": null
+            }
+          }
+        ]
+      }
+    }
+  }
+}

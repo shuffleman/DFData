@@ -1,0 +1,346 @@
+{
+  "jData": {
+    "data": {
+      "data": {
+        "list": [
+          {
+            "objectID": 13140000035,
+            "objectName": "X25U斜侧战斗握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000035.png",
+            "baseValue": 36664,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000034,
+            "objectName": "共振人体工程握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000034.png",
+            "baseValue": 71509,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000030,
+            "objectName": "密令斜角握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000030.png",
+            "baseValue": 62621,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000042,
+            "objectName": "黎明三角手电握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000042.png",
+            "baseValue": 35578,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000040,
+            "objectName": "CR棱镜阻手器",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000040.png",
+            "baseValue": 35795,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000036,
+            "objectName": "K1精英斜角握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000036.png",
+            "baseValue": 23097,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000039,
+            "objectName": "共振二代前握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000039.png",
+            "baseValue": 69799,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000029,
+            "objectName": "RK-0前握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000029.png",
+            "baseValue": 40257,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000041,
+            "objectName": "破晓垂直手电握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000041.png",
+            "baseValue": 17238,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000027,
+            "objectName": "战术三角握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000027.png",
+            "baseValue": 28891,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000022,
+            "objectName": "相位战斗前握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000022.png",
+            "baseValue": 46356,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000033,
+            "objectName": "幻影垂直握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000033.png",
+            "baseValue": 33723,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000021,
+            "objectName": "实用垂直握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000021.png",
+            "baseValue": 3545,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000028,
+            "objectName": "ZFSG战术握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000028.png",
+            "baseValue": 3545,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000024,
+            "objectName": "竞赛阻手器",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000024.png",
+            "baseValue": 22182,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000026,
+            "objectName": "斜角阻手器",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000026.png",
+            "baseValue": 18178,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000037,
+            "objectName": "折叠握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000037.png",
+            "baseValue": 13621,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000025,
+            "objectName": "VFG骑士前握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 3,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000025.png",
+            "baseValue": 13232,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000032,
+            "objectName": "战术垂直握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000032.png",
+            "baseValue": 16281,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000023,
+            "objectName": "迷你阻手器",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 2,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000023.png",
+            "baseValue": 3557,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          },
+          {
+            "objectID": 13140000038,
+            "objectName": "伸缩脚架握把",
+            "primaryClass": "acc",
+            "secondClass": "accForeGrip",
+            "grade": 4,
+            "length": 1,
+            "width": 1,
+            "pic": "/images/13140000038.png",
+            "baseValue": 19260,
+            "searchTime": 1.2,
+            "gunDetail": {
+              "capacity": null,
+              "accessory": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}
